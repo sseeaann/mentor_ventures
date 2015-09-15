@@ -1,0 +1,128 @@
+nav
+  position: relative
+
+  .desktop-nav
+    padding-right: 50px
+
+    ul
+      list-style-type: none
+      margin: 0
+      padding: 10px 0
+      width: 100%
+      @include display(flex)
+      background: transparent
+
+      li
+        display: inline-block
+        padding: 10px 20px
+        font-size: 14px
+
+        &:first-child
+          margin-left: auto
+
+        &:hover
+          background: rgba(255,255,255, 0.2)
+
+        a
+          text-decoration: none
+          color: $white
+
+  .mobile-nav-toggle
+    display: none
+    width: 25px
+    height: 25px
+    margin-right: 20px
+    @include align-items(center)
+    cursor: pointer
+    background: rgba($white,0.8)
+    border-radius: 50%
+    padding: 7px
+
+    span,
+    span:before,
+    span:after
+      content: ""
+      display: block
+      height: 2px
+      width: 100%
+      background: $midnight
+      position: relative
+      transition: all 200ms ease-in-out
+
+    span:before
+      top: 7px
+
+    span:after
+      top: -9px
+
+    &.is-open
+      z-index: 1001
+
+    &.is-open span
+      background: transparent
+
+    &.is-open span:before,
+    &.is-open span:after
+      @include transform-origin(center)
+      @include transform(rotate(45deg))
+      top: 0
+
+    &.is-open span:after
+      @include transform(rotate(-45deg))
+
+// Mobile Nav
+.mobile-nav
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  background: $darkness
+  @include transform(translateX(-100%))
+  transition: all 300ms ease-in-out
+
+  ul
+    list-style-type: none
+    padding: 0
+    width: 100%
+    @include display(flex)
+    @include flex-direction(column)
+    @include align-items(center)
+
+    li
+      padding: 10px 20px
+      font-size: 2.5em
+
+      &:first-child
+        margin-top: 50px
+
+      &:hover
+        background: rgba(255,255,255, 0.2)
+
+      a
+        text-decoration: none
+        color: $white
+
+.mobile-nav.is-open
+  @include transform(translateX(0%))
+  position: fixed
+  z-index: 1000
+
+
+@media (max-width: 775px)
+  nav
+    position: relative
+
+    .desktop-nav
+      ul
+        display: none
+
+    .mobile-nav-toggle
+      @include display(flex)
+      position: absolute
+      right: 0
+      top: 10px
+      z-index: 2
+
+      &.is-open
+        position: fixed
