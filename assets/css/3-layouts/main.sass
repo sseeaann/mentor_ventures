@@ -771,7 +771,7 @@
               background:
                 image: url(../img/sunset.png)
                 repeat: no-repeat
-                size: cover
+                size: contain
               width: 100vw
               max-width: 1366px
               height: 150vh
@@ -914,7 +914,644 @@
             right: -1em
             z-index: 1
 
+@media all and (min-width: 1021px) and (max-width: 1045px)
+  .max
+    max-width: 1366px
 
+  body
+    font-family: $font
+    position: relative
+    background:
+      image: url(../img/bgPattern.png)
+      color: $darkness
+
+    main#index
+      background: $darkness
+      position: relative
+
+      section.skyline
+        max-height: 130vh
+        position: relative
+        margin: 0
+        padding: 0
+        overflow: hidden
+        background: $midnight
+
+        .wrapper
+          min-height: 460px
+          position: absolute
+          display: table
+          height: 100%
+          width: 100%
+          left: 0
+          top: 0
+
+          .scene,
+          .layer
+            display: block
+            min-height: 100vh
+            width: 100%
+            padding: 0
+            margin: 0
+
+          .scene
+            min-height: 100vh
+            position: relative
+
+            .layer
+              position: absolute
+
+            .sky
+              background:
+                image: url(../img/sky.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 235%
+              position: absolute
+
+            .stars
+              background:
+                image: url(../img/stars.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 150vh
+              position: absolute
+
+            .clouds
+              background:
+                image: url(../img/clouds.png)
+                repeat: no-repeat
+                size: contain
+              width: 110%
+              height: 100%
+              position: absolute
+              left: -5%
+              top: 0
+
+            .sunset
+              background:
+                image: url(../img/sunset.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              max-width: 1366px
+              height: 150vh
+              position: absolute
+
+
+            .title
+              color: $white
+              position: absolute
+              top: 30%
+              left: 0
+              right: 0
+              @include display(flex)
+              @include align-items(center)
+              @include justify-content(center)
+
+              ul
+                list-style: none
+                margin: 0
+                padding: 0
+
+                .lead
+                  font-size: 72px
+                  font-weight: 300
+                  margin: 0
+
+                .sublead
+                  font-size: 20px
+                  opacity: 0.5
+                  font-weight: 100
+                  margin: 0
+                  padding-left: 5px
+
+
+            .mountains
+              background:
+                image: url(../img/mountains.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -5%
+              top: -7%
+
+            .backTrees
+              background:
+                image: url(../img/backTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -7%
+
+            .midTrees
+              background:
+                image: url(../img/midTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+            .frontTrees
+              background:
+                image: url(../img/frontTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+
+@media all and (min-width: 911px) and (max-width: 1020px)
+  .max
+    max-width: 1366px
+
+  body
+    font-family: $font
+    position: relative
+    background:
+      image: url(../img/bgPattern.png)
+      color: $darkness
+
+    main#index
+      background: $darkness
+      position: relative
+
+      section.skyline
+        max-height: 120vh
+        position: relative
+        margin: 0
+        padding: 0
+        overflow: hidden
+        background: $midnight
+
+        .wrapper
+          min-height: 460px
+          position: absolute
+          display: table
+          height: 100%
+          width: 100%
+          left: 0
+          top: 0
+
+          .scene,
+          .layer
+            display: block
+            min-height: 100vh
+            width: 100%
+            padding: 0
+            margin: 0
+
+          .scene
+            min-height: 100vh
+            position: relative
+
+            .layer
+              position: absolute
+
+            .sky
+              background:
+                image: url(../img/sky.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 235%
+              position: absolute
+
+            .stars
+              background:
+                image: url(../img/stars.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 150vh
+              position: absolute
+
+            .clouds
+              background:
+                image: url(../img/clouds.png)
+                repeat: no-repeat
+                size: contain
+              width: 110%
+              height: 100%
+              position: absolute
+              left: -5%
+              top: 0
+
+            .sunset
+              background:
+                image: url(../img/sunset.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              max-width: 1366px
+              height: 150vh
+              position: absolute
+
+
+            .title
+              color: $white
+              position: absolute
+              top: 30%
+              left: 0
+              right: 0
+              @include display(flex)
+              @include align-items(center)
+              @include justify-content(center)
+
+              ul
+                list-style: none
+                margin: 0
+                padding: 0
+
+                .lead
+                  font-size: 72px
+                  font-weight: 300
+                  margin: 0
+
+                .sublead
+                  font-size: 20px
+                  opacity: 0.5
+                  font-weight: 100
+                  margin: 0
+                  padding-left: 5px
+
+
+            .mountains
+              background:
+                image: url(../img/mountains.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -5%
+              top: -7%
+
+            .backTrees
+              background:
+                image: url(../img/backTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -7%
+
+            .midTrees
+              background:
+                image: url(../img/midTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+            .frontTrees
+              background:
+                image: url(../img/frontTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+
+@media all and (min-width: 821px) and (max-width: 910px)
+  .max
+    max-width: 1366px
+
+  body
+    font-family: $font
+    position: relative
+    background:
+      image: url(../img/bgPattern.png)
+      color: $darkness
+
+    main#index
+      background: $darkness
+      position: relative
+
+      section.skyline
+        max-height: 105vh
+        position: relative
+        margin: 0
+        padding: 0
+        overflow: hidden
+        background: $midnight
+
+        .wrapper
+          min-height: 460px
+          position: absolute
+          display: table
+          height: 100%
+          width: 100%
+          left: 0
+          top: 0
+
+          .scene,
+          .layer
+            display: block
+            min-height: 100vh
+            width: 100%
+            padding: 0
+            margin: 0
+
+          .scene
+            min-height: 100vh
+            position: relative
+
+            .layer
+              position: absolute
+
+            .sky
+              background:
+                image: url(../img/sky.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 235%
+              position: absolute
+
+            .stars
+              background:
+                image: url(../img/stars.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 150vh
+              position: absolute
+
+            .clouds
+              background:
+                image: url(../img/clouds.png)
+                repeat: no-repeat
+                size: contain
+              width: 110%
+              height: 100%
+              position: absolute
+              left: -5%
+              top: 0
+
+            .sunset
+              background:
+                image: url(../img/sunset.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              max-width: 1366px
+              height: 150vh
+              position: absolute
+
+
+            .title
+              color: $white
+              position: absolute
+              top: 30%
+              left: 0
+              right: 0
+              @include display(flex)
+              @include align-items(center)
+              @include justify-content(center)
+
+              ul
+                list-style: none
+                margin: 0
+                padding: 0
+
+                .lead
+                  font-size: 72px
+                  font-weight: 300
+                  margin: 0
+
+                .sublead
+                  font-size: 20px
+                  opacity: 0.5
+                  font-weight: 100
+                  margin: 0
+                  padding-left: 5px
+
+
+            .mountains
+              background:
+                image: url(../img/mountains.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -5%
+              top: -7%
+
+            .backTrees
+              background:
+                image: url(../img/backTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -7%
+
+            .midTrees
+              background:
+                image: url(../img/midTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+            .frontTrees
+              background:
+                image: url(../img/frontTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+
+@media all and (min-width: 769px) and (max-width: 820px)
+  .max
+    max-width: 1366px
+
+  body
+    font-family: $font
+    position: relative
+    background:
+      image: url(../img/bgPattern.png)
+      color: $darkness
+
+    main#index
+      background: $darkness
+      position: relative
+
+      section.skyline
+        max-height: 95vh
+        position: relative
+        margin: 0
+        padding: 0
+        overflow: hidden
+        background: $midnight
+
+        .wrapper
+          min-height: 460px
+          position: absolute
+          display: table
+          height: 100%
+          width: 100%
+          left: 0
+          top: 0
+
+          .scene,
+          .layer
+            display: block
+            min-height: 100vh
+            width: 100%
+            padding: 0
+            margin: 0
+
+          .scene
+            min-height: 100vh
+            position: relative
+
+            .layer
+              position: absolute
+
+            .sky
+              background:
+                image: url(../img/sky.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 235%
+              position: absolute
+
+            .stars
+              background:
+                image: url(../img/stars.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 150vh
+              position: absolute
+
+            .clouds
+              background:
+                image: url(../img/clouds.png)
+                repeat: no-repeat
+                size: contain
+              width: 110%
+              height: 100%
+              position: absolute
+              left: -5%
+              top: 0
+
+            .sunset
+              background:
+                image: url(../img/sunset.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              max-width: 1366px
+              height: 150vh
+              position: absolute
+
+
+            .title
+              color: $white
+              position: absolute
+              top: 30%
+              left: 0
+              right: 0
+              @include display(flex)
+              @include align-items(center)
+              @include justify-content(center)
+
+              ul
+                list-style: none
+                margin: 0
+                padding: 0
+
+                .lead
+                  font-size: 72px
+                  font-weight: 300
+                  margin: 0
+
+                .sublead
+                  font-size: 20px
+                  opacity: 0.5
+                  font-weight: 100
+                  margin: 0
+                  padding-left: 5px
+
+
+            .mountains
+              background:
+                image: url(../img/mountains.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -5%
+              top: -7%
+
+            .backTrees
+              background:
+                image: url(../img/backTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -7%
+
+            .midTrees
+              background:
+                image: url(../img/midTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+            .frontTrees
+              background:
+                image: url(../img/frontTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
 
 
 @media all and (max-width: 1024px) and (max-height: 768px)
