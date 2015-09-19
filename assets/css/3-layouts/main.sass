@@ -1,4 +1,4 @@
-@media (min-width: 1136px)
+@media all and (min-width: 1300px)
   .max
     max-width: 1366px
 
@@ -14,7 +14,469 @@
       position: relative
 
       section.skyline
-        min-height: 180vh
+        min-height: 170vh
+        position: relative
+        margin: 0
+        padding: 0
+        overflow: hidden
+        background: $midnight
+
+        .wrapper
+          min-height: 460px
+          position: absolute
+          display: table
+          height: 100%
+          width: 100%
+          left: 0
+          top: 0
+
+          .scene,
+          .layer
+            display: block
+            min-height: 100vh
+            width: 100%
+            padding: 0
+            margin: 0
+
+          .scene
+            min-height: 100vh
+            position: relative
+
+            .layer
+              position: absolute
+
+            .sky
+              background:
+                image: url(../img/sky.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 235%
+              position: absolute
+
+            .stars
+              background:
+                image: url(../img/stars.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 150vh
+              position: absolute
+
+            .clouds
+              background:
+                image: url(../img/clouds.png)
+                repeat: no-repeat
+                size: contain
+              width: 110%
+              height: 100%
+              position: absolute
+              left: -5%
+              top: 0
+
+            .sunset
+              background:
+                image: url(../img/sunset.png)
+                repeat: no-repeat
+                size: cover
+              width: 100vw
+              max-width: 1366px
+              height: 150vh
+              position: absolute
+
+
+            .title
+              color: $white
+              position: absolute
+              top: 30%
+              left: 0
+              right: 0
+              @include display(flex)
+              @include align-items(center)
+              @include justify-content(center)
+
+              ul
+                list-style: none
+                margin: 0
+                padding: 0
+
+                .lead
+                  font-size: 72px
+                  font-weight: 300
+                  margin: 0
+
+                .sublead
+                  font-size: 20px
+                  opacity: 0.5
+                  font-weight: 100
+                  margin: 0
+                  padding-left: 5px
+
+
+            .mountains
+              background:
+                image: url(../img/mountains.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -5%
+              top: -7%
+
+            .backTrees
+              background:
+                image: url(../img/backTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -7%
+
+            .midTrees
+              background:
+                image: url(../img/midTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+            .frontTrees
+              background:
+                image: url(../img/frontTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -25%
+
+
+
+      section.baseline
+        background: $darkness
+        padding-top: 100px
+        overflow: hidden
+        position: relative
+
+        p
+          text-align: center
+          font-size: 24px
+          font-weight: 100
+          color: $white
+          width: 100%
+          border-bottom: 1px solid rgba($white, 0.2)
+          line-height: 0.1em
+          margin: 20px 0 100px
+
+          span
+            background: $darkness
+            padding: 0 10px
+
+        #highlights
+          padding: 20px
+          @include display(flex)
+          @include justify-content(space-around)
+
+          img
+            background: $darkness
+            width: 200px
+
+          @media (min-width: 776px)
+            img:hover
+              @include transform(scale(1.5) rotate(-5deg))
+              transition: all 200ms ease-in-out
+
+        .makeout-point
+          position: relative
+          bottom: 0
+          left: 0
+          right: 0
+          margin-top: 150px
+          padding-top: 50px
+          height: 100vh
+          max-width: 1366px
+          background:
+            image: url(../img/vanGuy.png)
+            size: cover
+            position: center
+
+          img#tree1
+            position: absolute
+            bottom: -1.5em
+            left: -2.5em
+
+          img#tree2
+            position: absolute
+            bottom: -1.2em
+            left: 5em
+            z-index: 1
+
+          img#tree3
+            position: absolute
+            bottom: -1.2em
+            right: 8em
+
+          img#tree4
+            position: absolute
+            bottom: -1.5em
+            right: -1em
+            z-index: 1
+
+@media all and (min-width: 1200px) and (max-width: 1299px)
+  .max
+    max-width: 1366px
+
+  body
+    font-family: $font
+    position: relative
+    background:
+      image: url(../img/bgPattern.png)
+      color: $darkness
+
+    main#index
+      background: $darkness
+      position: relative
+
+      section.skyline
+        min-height: 160vh
+        position: relative
+        margin: 0
+        padding: 0
+        overflow: hidden
+        background: $midnight
+
+        .wrapper
+          min-height: 460px
+          position: absolute
+          display: table
+          height: 100%
+          width: 100%
+          left: 0
+          top: 0
+
+          .scene,
+          .layer
+            display: block
+            min-height: 100vh
+            width: 100%
+            padding: 0
+            margin: 0
+
+          .scene
+            min-height: 100vh
+            position: relative
+
+            .layer
+              position: absolute
+
+            .sky
+              background:
+                image: url(../img/sky.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 235%
+              position: absolute
+
+            .stars
+              background:
+                image: url(../img/stars.png)
+                repeat: no-repeat
+                size: contain
+              width: 100vw
+              height: 150vh
+              position: absolute
+
+            .clouds
+              background:
+                image: url(../img/clouds.png)
+                repeat: no-repeat
+                size: contain
+              width: 110%
+              height: 100%
+              position: absolute
+              left: -5%
+              top: 0
+
+            .sunset
+              background:
+                image: url(../img/sunset.png)
+                repeat: no-repeat
+                size: cover
+              width: 100vw
+              max-width: 1366px
+              height: 150vh
+              position: absolute
+
+
+            .title
+              color: $white
+              position: absolute
+              top: 30%
+              left: 0
+              right: 0
+              @include display(flex)
+              @include align-items(center)
+              @include justify-content(center)
+
+              ul
+                list-style: none
+                margin: 0
+                padding: 0
+
+                .lead
+                  font-size: 72px
+                  font-weight: 300
+                  margin: 0
+
+                .sublead
+                  font-size: 20px
+                  opacity: 0.5
+                  font-weight: 100
+                  margin: 0
+                  padding-left: 5px
+
+
+            .mountains
+              background:
+                image: url(../img/mountains.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -5%
+              top: -7%
+
+            .backTrees
+              background:
+                image: url(../img/backTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 110%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -7%
+
+            .midTrees
+              background:
+                image: url(../img/midTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -20%
+
+            .frontTrees
+              background:
+                image: url(../img/frontTrees.png)
+                repeat: no-repeat
+                size: 100%
+              width: 120%
+              height: 235%
+              position: absolute
+              left: -10%
+              top: -25%
+
+
+
+      section.baseline
+        background: $darkness
+        padding-top: 100px
+        overflow: hidden
+        position: relative
+
+        p
+          text-align: center
+          font-size: 24px
+          font-weight: 100
+          color: $white
+          width: 100%
+          border-bottom: 1px solid rgba($white, 0.2)
+          line-height: 0.1em
+          margin: 20px 0 100px
+
+          span
+            background: $darkness
+            padding: 0 10px
+
+        #highlights
+          padding: 20px
+          @include display(flex)
+          @include justify-content(space-around)
+
+          img
+            background: $darkness
+            width: 200px
+
+          @media (min-width: 776px)
+            img:hover
+              @include transform(scale(1.5) rotate(-5deg))
+              transition: all 200ms ease-in-out
+
+        .makeout-point
+          position: relative
+          bottom: 0
+          left: 0
+          right: 0
+          margin-top: 150px
+          padding-top: 50px
+          height: 100vh
+          max-width: 1366px
+          background:
+            image: url(../img/vanGuy.png)
+            size: cover
+            position: center
+
+          img#tree1
+            position: absolute
+            bottom: -1.5em
+            left: -2.5em
+
+          img#tree2
+            position: absolute
+            bottom: -1.2em
+            left: 5em
+            z-index: 1
+
+          img#tree3
+            position: absolute
+            bottom: -1.2em
+            right: 8em
+
+          img#tree4
+            position: absolute
+            bottom: -1.5em
+            right: -1em
+            z-index: 1
+
+@media all and (min-width: 1136px) and (max-width: 1199px)
+  .max
+    max-width: 1366px
+
+  body
+    font-family: $font
+    position: relative
+    background:
+      image: url(../img/bgPattern.png)
+      color: $darkness
+
+    main#index
+      background: $darkness
+      position: relative
+
+      section.skyline
+        min-height: 145vh
         position: relative
         margin: 0
         padding: 0
@@ -1761,223 +2223,6 @@
             right: -4.5em
             z-index: 1
 
-// @media all and (min-width: 533px) and (max-height: 360px)
-//   body
-//     font-family: $font
-//     position: relative
-//
-//     main#index
-//       background: $darkness
-//       position: relative
-//
-//       section.skyline
-//         height: 100vh
-//         position: relative
-//         margin: 0
-//         padding: 0
-//         overflow: hidden
-//
-//         .wrapper
-//           min-height: 460px
-//           position: absolute
-//           display: table
-//           height: 100%
-//           width: 100%
-//           left: 0
-//           top: 0
-//
-//           .scene,
-//           .layer
-//             display: block
-//             min-height: 100vh
-//             width: 100%
-//             padding: 0
-//             margin: 0
-//
-//           .scene
-//             min-height: 100vh
-//             position: relative
-//
-//             .layer
-//               position: absolute
-//
-//             .sky
-//               background:
-//                 image: url(../img/sky.png)
-//                 repeat: no-repeat
-//                 size: contain
-//               width: 100%
-//               height: 1024px
-//               position: absolute
-//
-//             .stars
-//               background:
-//                 image: url(../img/stars.png)
-//                 repeat: no-repeat
-//                 size: contain
-//               width: 100%
-//               height: 1024px
-//               position: absolute
-//
-//             .clouds
-//               background:
-//                 image: url(../img/clouds.png)
-//                 repeat: no-repeat
-//                 size: contain
-//               width: 110%
-//               height: 100%
-//               position: absolute
-//               left: -5%
-//               top: 0
-//
-//             .sunset
-//               background:
-//                 image: url(../img/sunset.png)
-//                 repeat: no-repeat
-//                 size: cover
-//                 position: center -40px
-//               width: 100%
-//               height: 200%
-//               position: absolute
-//
-//
-//             .title
-//               color: $white
-//               position: absolute
-//               top: 35%
-//               left: 0
-//               right: 0
-//               @include display(flex)
-//               @include align-items(center)
-//               @include justify-content(center)
-//
-//               ul
-//                 list-style: none
-//                 margin: 0
-//                 padding: 0
-//
-//                 .lead
-//                   font-size: 36px
-//                   font-weight: 300
-//                   margin: 0
-//
-//                 .sublead
-//                   font-size: 16px
-//                   opacity: 0.5
-//                   font-weight: 100
-//                   margin: 0
-//                   padding-left: 2px
-//
-//
-//             .mountains
-//               background:
-//                 image: url(../img/mountains.png)
-//                 repeat: no-repeat
-//                 size: 100%
-//               width: 110%
-//               height: 235%
-//               position: absolute
-//               left: -5%
-//               top: -15%
-//
-//             .backTrees
-//               background:
-//                 image: url(../img/backTrees.png)
-//                 repeat: no-repeat
-//                 size: 100%
-//               width: 110%
-//               height: 235%
-//               position: absolute
-//               left: -10%
-//               top: -12%
-//
-//             .midTrees
-//               background:
-//                 image: url(../img/midTrees.png)
-//                 repeat: no-repeat
-//                 size: 100%
-//               width: 120%
-//               height: 255%
-//               position: absolute
-//               left: -10%
-//               top: -30%
-//
-//             .frontTrees
-//               background:
-//                 image: url(../img/frontTrees.png)
-//                 repeat: no-repeat
-//                 size: 100%
-//               width: 120%
-//               min-height: 100%
-//               position: absolute
-//               left: -15%
-//               top: -35%
-//
-//
-//       section.baseline
-//         background: $darkness
-//         padding-top: 125px
-//         overflow: hidden
-//         position: relative
-//
-//         p
-//           text-align: center
-//           font-size: 24px
-//           font-weight: 100
-//           color: $white
-//           width: 100%
-//           border-bottom: 1px solid rgba($white, 0.2)
-//           line-height: 0.1em
-//           margin: 20px 0 100px
-//
-//           span
-//             background: $darkness
-//             padding: 0 10px
-//
-//         #highlights
-//           padding: 20px
-//           @include display(flex)
-//           @include justify-content(space-around)
-//
-//           img
-//             background: $darkness
-//             width: 150px
-//
-//         .makeout-point
-//           position: relative
-//           bottom: 0
-//           left: 0
-//           right: 0
-//           margin-top: 75px
-//           padding-top: 20px
-//           height: 100vh
-//           width: 100vw
-//           background:
-//             image: url(../img/vanGuy.png)
-//             size: cover
-//             position: center
-//             repeat: no-repeat
-//
-//           img#tree1
-//             position: absolute
-//             bottom: -11em
-//             left: -4em
-//
-//           img#tree2
-//             position: absolute
-//             bottom: -8em
-//             left: 1em
-//
-//           img#tree3
-//             position: absolute
-//             bottom: -7em
-//             right: 2.5em
-//
-//           img#tree4
-//             position: absolute
-//             bottom: -10em
-//             right: -4.5em
-//             z-index: 1
 
 @media all and (max-width: 532px)
   body
@@ -2206,7 +2451,7 @@
       position: relative
 
       section.skyline
-        max-height: 65vh
+        min-height: 100vh
         position: relative
         margin: 0
         padding: 0
@@ -2352,7 +2597,6 @@
       section.baseline
         background: $darkness
         padding-top: 0px
-        margin-top: -70vh
         overflow: hidden
         position: relative
 
@@ -2918,9 +3162,9 @@
     opacity: 1
 
   25%, 75%
-    opacity: 0.7
+    opacity: .5
 
 .flash
   @include animation-name(flash)
   @include animation-iteration-count(infinite)
-  @include animation-duration(.75s)
+  @include animation-duration(1s)
