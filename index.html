@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <main id="index">
+    <main id="index" class="max">
 
       <nav>
   <div class="desktop-nav">
@@ -31,14 +31,17 @@
   </ul>
 </div>
 
-      <section class="skyline">
+      <section class="skyline max">
         <div class="wrapper" id="container">
       		<ul id="scene" class="scene unselectable"
-      			data-friction-x="0.1"
-      			data-friction-y="0.1"
-      			data-scalar-x="25"
-      			data-scalar-y="15">
-      			<li class="layer" data-depth="0.00"><div class="sky"></div></li>
+      			data-friction-x="0"
+      			data-friction-y="0"
+      			data-scalar-x="10"
+      			data-scalar-y="6">
+            <li class="layer" data-depth="0.00"></li>
+      			<li class="layer" data-depth="0.00"><div class="sky max"></div></li>
+            <li class="layer" data-depth="0.00"><div class="stars max animated flash"></div></li>
+            <li class="layer" data-depth="0.00"><div class="sunset"></div></li>
       			<li class="layer" data-depth="0.20"><div class="clouds"></div></li>
       			<li class="layer" data-depth="0.10">
               <div class="title">
@@ -56,7 +59,7 @@
       	</div>
       </section>
 
-      <section class="baseline">
+      <section class="baseline max">
         <p><span>Our Apps have been featured</span></p>
         <div id="highlights">
           <a href="#"><img class="animated" src="assets/img/laurel-wreath1.png" alt="P" /></a>
@@ -65,7 +68,6 @@
           <a href="#"><img class="animated" src="assets/img/laurel-wreath4.png" alt="the next web" /></a>
         </div>
         <div class="makeout-point">
-          <!-- <img src="assets/img/vanGuy.png" alt="chester and his van" id="vanGuy" /> -->
           <img src="assets/img/tree1.png" alt="tree" id="tree1" class="animated"/>
           <img src="assets/img/tree2.png" alt="tree" id="tree2" class="animated"/>
           <img src="assets/img/tree3.png" alt="tree" id="tree3" class="animated"/>
@@ -73,14 +75,14 @@
         </div>
       </section>
 
-      <footer>
+
+
+    </main>
+    <footer>
   <p>
     Design First &copy;Mentor Ventures Inc 2015
   </p>
 </footer>
-
-    </main>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="assets/js/parallax.min.js" type="text/javascript"></script>
 <script src="assets/js/functions.js" type="text/javascript"></script>

@@ -4,18 +4,21 @@
     <!-- @import _includes/head.html -->
   </head>
   <body>
-    <main id="index">
+    <main id="index" class="max">
 
       <!-- @import _includes/navbar.html -->
 
-      <section class="skyline">
+      <section class="skyline max">
         <div class="wrapper" id="container">
       		<ul id="scene" class="scene unselectable"
-      			data-friction-x="0.1"
-      			data-friction-y="0.1"
-      			data-scalar-x="25"
-      			data-scalar-y="15">
-      			<li class="layer" data-depth="0.00"><div class="sky"></div></li>
+      			data-friction-x="0"
+      			data-friction-y="0"
+      			data-scalar-x="10"
+      			data-scalar-y="6">
+            <li class="layer" data-depth="0.00"></li>
+      			<li class="layer" data-depth="0.00"><div class="sky max"></div></li>
+            <li class="layer" data-depth="0.00"><div class="stars max animated flash"></div></li>
+            <li class="layer" data-depth="0.00"><div class="sunset"></div></li>
       			<li class="layer" data-depth="0.20"><div class="clouds"></div></li>
       			<li class="layer" data-depth="0.10">
               <div class="title">
@@ -33,7 +36,7 @@
       	</div>
       </section>
 
-      <section class="baseline">
+      <section class="baseline max">
         <p><span>Our Apps have been featured</span></p>
         <div id="highlights">
           <a href="#"><img class="animated" src="assets/img/laurel-wreath1.png" alt="P" /></a>
@@ -42,7 +45,6 @@
           <a href="#"><img class="animated" src="assets/img/laurel-wreath4.png" alt="the next web" /></a>
         </div>
         <div class="makeout-point">
-          <!-- <img src="assets/img/vanGuy.png" alt="chester and his van" id="vanGuy" /> -->
           <img src="assets/img/tree1.png" alt="tree" id="tree1" class="animated"/>
           <img src="assets/img/tree2.png" alt="tree" id="tree2" class="animated"/>
           <img src="assets/img/tree3.png" alt="tree" id="tree3" class="animated"/>
@@ -50,10 +52,10 @@
         </div>
       </section>
 
-      <!-- @import _includes/footer.html -->
+
 
     </main>
-
+    <!-- @import _includes/footer.html -->
     <!-- @import _includes/scripts.html -->
   </body>
 </html>

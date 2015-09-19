@@ -1,11 +1,12 @@
 $(function() {
   var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
+
   $(window).scroll(function(){
 
-   var wScroll = $(this).scrollTop();
+    var wScroll = $(this).scrollTop();
 
-   if(wScroll > $('.makeout-point .animated').offset().top - ($(window).height() / 1.7)){
+    if(wScroll > $('.makeout-point .animated').offset().top - ($(window).height() / 1.7)){
 
      $('.makeout-point .animated').each(function(i){
 
@@ -15,11 +16,11 @@ $(function() {
 
      });
 
-   }
+    }
 
-  if(wScroll < $('.makeout-point .animated').offset().top - ($(window).height()) && $('.makeout-point .animated .treeShake')){
-    $('.makeout-point .animated').removeClass('treeShake');
-  }
+    if(wScroll < $('.makeout-point .animated').offset().top - ($(window).height()) && $('.makeout-point .animated .treeShake')){
+      $('.makeout-point .animated').removeClass('treeShake');
+    }
 
   });
 
