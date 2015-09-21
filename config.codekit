@@ -1506,7 +1506,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 190073,
+		"initialSize": 241613,
 		"inputAbbreviatedPath": "\/assets\/img\/frontTrees.png",
 		"outputAbbreviatedPath": "\/assets\/img\/frontTrees.png",
 		"outputPathIsOutsideProject": 0,
@@ -1700,6 +1700,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/min\/stellar-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/stellar-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/stellar-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/parallax.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1717,6 +1728,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/parallax.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/parallax.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/stellar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/stellar.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/stellar-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

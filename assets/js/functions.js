@@ -1,4 +1,6 @@
 $(function() {
+  $(window).stellar();
+
   var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
 
