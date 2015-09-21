@@ -1,0 +1,197 @@
+.container
+  max-width: 1024px
+  margin: 0 auto
+
+main#about
+  position: relative
+
+  section#dudes
+    background:
+      image: url(../img/aboutBG.png)
+    height: 900px
+
+    #workStation
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+
+      .staff
+        position: absolute
+        width: 1024px
+        bottom: 365px
+        left: 0
+        right: 0
+        padding: 0
+        text-align: center
+
+        .dude
+          display: inline-block
+          text-align: center
+          margin: 0 80px
+          color: $dark-text
+          width: 200px
+
+          h3,
+          p
+            margin: 0
+            line-height: 1.7
+
+          h3
+            font-size: 20px
+
+          p
+            font-size: 14px
+
+            i.fa
+              margin: 0 5px
+
+          p.icon1
+            margin-top: 19px
+            margin-bottom: 8px
+
+            a
+              color: #999
+
+          p.icon2
+            .fa-twitter
+              color: #0090FF
+            .fa-github
+              color: #000
+            .fa-dribbble
+              color: #FF1290
+            .fa-linkedin
+              color: #2C76B0
+
+    #mobileStation
+      display: none
+
+  section#aboutUs
+    margin: 0
+    padding: 0
+    background: $aboutBlue
+    color: $white
+
+    #aboutDiv
+      padding: 50px
+
+      h2,
+      p
+        margin: 0 0 20px 0
+
+      h2
+        font-weight: 100
+
+      p
+        line-height: 1.5
+        opacity: 0.64
+        font-weight: 100
+        font-size: 16px
+
+@media (max-width: 768px)
+  main#about
+    position: relative
+
+    section#dudes
+      background: $beige
+      height: 950px
+      position: relative
+
+      #workStation
+        display: none
+
+      #mobileStation
+        text-align: center
+        padding-top: 130px
+        display: block
+
+        .dude
+          padding-bottom: 55px
+
+          h3,
+          p
+            margin: 0
+            line-height: 1.7
+
+          p.icons
+            margin-top: 20px
+
+            a
+              display: inline-block
+              border-radius: 50%
+              width: 52px
+              height: 52px
+              background: $white
+              line-height: normal
+              margin: 0 5px
+
+              i
+                padding: 1px
+                margin: 5px
+
+              .fa-twitter
+                color: #0090FF
+              .fa-github
+                color: #000
+              .fa-dribbble
+                color: #FF1290
+              .fa-linkedin
+                color: #2C76B0
+
+
+        #darkGrey
+          height: 38px
+          background: #A8A8A8
+          position: absolute
+          right: 0
+          left: 0
+          bottom: 57px
+
+        #lightGrey
+          height: 57px
+          background: #D8D8D8
+          position: absolute
+          bottom: 0
+          right: 0
+          left: 0
+
+
+    section#aboutUs
+      margin: 0
+      padding: 0
+      background: $aboutBlue
+      color: $white
+
+      #aboutDiv
+        padding: 50px
+
+        h2,
+        p
+          margin: 0 0 20px 0
+
+        h2
+          font-weight: 100
+
+        p
+          line-height: 1.5
+          opacity: 0.64
+          font-weight: 100
+          font-size: 16px
+
+@media (min-width: 500px) and (max-width: 768px)
+  main#about
+    position: relative
+
+    section#dudes
+      background: $beige
+      height: 650px
+      position: relative
+
+      #workStation
+        display: none
+
+      #mobileStation
+        text-align: center
+        padding-top: 130px
+        @include display(flex)
+        @include justify-content(space-around)

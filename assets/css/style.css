@@ -359,6 +359,176 @@ td,
 th {
   padding: 0; }
 
+.container {
+  max-width: 1024px;
+  margin: 0 auto; }
+
+main#about {
+  position: relative; }
+  main#about section#dudes {
+    background-image: url(../img/aboutBG.png);
+    height: 900px; }
+    main#about section#dudes #workStation {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0; }
+      main#about section#dudes #workStation .staff {
+        position: absolute;
+        width: 1024px;
+        bottom: 365px;
+        left: 0;
+        right: 0;
+        padding: 0;
+        text-align: center; }
+        main#about section#dudes #workStation .staff .dude {
+          display: inline-block;
+          text-align: center;
+          margin: 0 80px;
+          color: #212121;
+          width: 200px; }
+          main#about section#dudes #workStation .staff .dude h3,
+          main#about section#dudes #workStation .staff .dude p {
+            margin: 0;
+            line-height: 1.7; }
+          main#about section#dudes #workStation .staff .dude h3 {
+            font-size: 20px; }
+          main#about section#dudes #workStation .staff .dude p {
+            font-size: 14px; }
+            main#about section#dudes #workStation .staff .dude p i.fa {
+              margin: 0 5px; }
+          main#about section#dudes #workStation .staff .dude p.icon1 {
+            margin-top: 19px;
+            margin-bottom: 8px; }
+            main#about section#dudes #workStation .staff .dude p.icon1 a {
+              color: #999; }
+          main#about section#dudes #workStation .staff .dude p.icon2 .fa-twitter {
+            color: #0090FF; }
+          main#about section#dudes #workStation .staff .dude p.icon2 .fa-github {
+            color: #000; }
+          main#about section#dudes #workStation .staff .dude p.icon2 .fa-dribbble {
+            color: #FF1290; }
+          main#about section#dudes #workStation .staff .dude p.icon2 .fa-linkedin {
+            color: #2C76B0; }
+    main#about section#dudes #mobileStation {
+      display: none; }
+  main#about section#aboutUs {
+    margin: 0;
+    padding: 0;
+    background: #242C35;
+    color: #fff; }
+    main#about section#aboutUs #aboutDiv {
+      padding: 50px; }
+      main#about section#aboutUs #aboutDiv h2,
+      main#about section#aboutUs #aboutDiv p {
+        margin: 0 0 20px 0; }
+      main#about section#aboutUs #aboutDiv h2 {
+        font-weight: 100; }
+      main#about section#aboutUs #aboutDiv p {
+        line-height: 1.5;
+        opacity: 0.64;
+        font-weight: 100;
+        font-size: 16px; }
+
+@media (max-width: 768px) {
+  main#about {
+    position: relative; }
+    main#about section#dudes {
+      background: #BFA692;
+      height: 950px;
+      position: relative; }
+      main#about section#dudes #workStation {
+        display: none; }
+      main#about section#dudes #mobileStation {
+        text-align: center;
+        padding-top: 130px;
+        display: block; }
+        main#about section#dudes #mobileStation .dude {
+          padding-bottom: 55px; }
+          main#about section#dudes #mobileStation .dude h3,
+          main#about section#dudes #mobileStation .dude p {
+            margin: 0;
+            line-height: 1.7; }
+          main#about section#dudes #mobileStation .dude p.icons {
+            margin-top: 20px; }
+            main#about section#dudes #mobileStation .dude p.icons a {
+              display: inline-block;
+              border-radius: 50%;
+              width: 52px;
+              height: 52px;
+              background: #fff;
+              line-height: normal;
+              margin: 0 5px; }
+              main#about section#dudes #mobileStation .dude p.icons a i {
+                padding: 1px;
+                margin: 5px; }
+              main#about section#dudes #mobileStation .dude p.icons a .fa-twitter {
+                color: #0090FF; }
+              main#about section#dudes #mobileStation .dude p.icons a .fa-github {
+                color: #000; }
+              main#about section#dudes #mobileStation .dude p.icons a .fa-dribbble {
+                color: #FF1290; }
+              main#about section#dudes #mobileStation .dude p.icons a .fa-linkedin {
+                color: #2C76B0; }
+        main#about section#dudes #mobileStation #darkGrey {
+          height: 38px;
+          background: #A8A8A8;
+          position: absolute;
+          right: 0;
+          left: 0;
+          bottom: 57px; }
+        main#about section#dudes #mobileStation #lightGrey {
+          height: 57px;
+          background: #D8D8D8;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          left: 0; }
+    main#about section#aboutUs {
+      margin: 0;
+      padding: 0;
+      background: #242C35;
+      color: #fff; }
+      main#about section#aboutUs #aboutDiv {
+        padding: 50px; }
+        main#about section#aboutUs #aboutDiv h2,
+        main#about section#aboutUs #aboutDiv p {
+          margin: 0 0 20px 0; }
+        main#about section#aboutUs #aboutDiv h2 {
+          font-weight: 100; }
+        main#about section#aboutUs #aboutDiv p {
+          line-height: 1.5;
+          opacity: 0.64;
+          font-weight: 100;
+          font-size: 16px; } }
+@media (min-width: 500px) and (max-width: 768px) {
+  main#about {
+    position: relative; }
+    main#about section#dudes {
+      background: #BFA692;
+      height: 650px;
+      position: relative; }
+      main#about section#dudes #workStation {
+        display: none; }
+      main#about section#dudes #mobileStation {
+        text-align: center;
+        padding-top: 130px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: distribute;
+        -moz-box-pack: distribute;
+        box-pack: distribute;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+        -ms-justify-content: space-around;
+        -o-justify-content: space-around;
+        justify-content: space-around;
+        -ms-flex-pack: distribute; } }
 footer {
   position: absolute;
   bottom: 0;
@@ -379,7 +549,7 @@ body {
   font-family: "Roboto", sans-serif;
   position: relative; }
   body main#index {
-    background: #0F111D;
+    background: #0F132A;
     position: relative; }
     body main#index section.skyline {
       position: relative;
@@ -473,20 +643,21 @@ body {
           width: 100%;
           height: 100%;
           position: absolute;
-          top: 20px; }
+          top: 75px; }
         body main#index section.skyline .wrapper .midTrees {
           background-image: url(../img/midTrees.png);
           background-repeat: no-repeat;
           width: 100%;
           height: 100%;
-          position: absolute; }
+          position: absolute;
+          top: 50px; }
         body main#index section.skyline .wrapper .frontTrees {
           background-image: url(../img/frontTrees.png);
           background-repeat: no-repeat;
           width: 100%;
           height: 100%;
           position: absolute;
-          top: 300px; }
+          top: 350px; }
     body main#index section.baseline {
       background: #0F111D;
       margin: 0;
@@ -764,7 +935,10 @@ nav {
   position: relative;
   max-width: 1366px; }
   nav .desktop-nav {
-    padding-right: 50px; }
+    padding-right: 50px;
+    position: absolute;
+    z-index: 1;
+    right: 0; }
     nav .desktop-nav ul {
       list-style-type: none;
       margin: 0;
