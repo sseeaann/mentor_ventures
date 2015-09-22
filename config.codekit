@@ -65,6 +65,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/apps.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/apps.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/apps.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/apps.kit",
+		"outputAbbreviatedPath": "\/apps.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/css\/0-tools\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1377,6 +1395,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/3-layouts\/animations.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-layouts\/animations.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/animations.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/3-layouts\/apps.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-layouts\/apps.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/apps.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/3-layouts\/footer.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1393,15 +1443,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/3-layouts\/main.sass": {
+	"\/assets\/css\/3-layouts\/index.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/3-layouts\/main.sass",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/main.css",
+		"inputAbbreviatedPath": "\/assets\/css\/3-layouts\/index.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/index.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1424,6 +1474,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/assets\/css\/css\/animations.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/css\/animations.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/css\/css\/skyline.css": {
 		"fileType": 16,
@@ -2022,6 +2081,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/cloudsLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215490,
+		"inputAbbreviatedPath": "\/assets\/img\/cloudsLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/cloudsLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/comet1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1298,
+		"inputAbbreviatedPath": "\/assets\/img\/comet1.png",
+		"outputAbbreviatedPath": "\/assets\/img\/comet1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/comet2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2815,
+		"inputAbbreviatedPath": "\/assets\/img\/comet2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/comet2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/darkTree.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2040,6 +2132,17 @@
 		"initialSize": 241613,
 		"inputAbbreviatedPath": "\/assets\/img\/frontTrees.png",
 		"outputAbbreviatedPath": "\/assets\/img\/frontTrees.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/frontTreesLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 386715,
+		"inputAbbreviatedPath": "\/assets\/img\/frontTreesLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/frontTreesLG.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2121,6 +2224,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/midTreesLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174660,
+		"inputAbbreviatedPath": "\/assets\/img\/midTreesLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/midTreesLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/mitchell.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2143,6 +2257,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/mountainsLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254724,
+		"inputAbbreviatedPath": "\/assets\/img\/mountainsLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/mountainsLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/sky.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2150,6 +2275,17 @@
 		"initialSize": 25773,
 		"inputAbbreviatedPath": "\/assets\/img\/sky.png",
 		"outputAbbreviatedPath": "\/assets\/img\/sky.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/skyLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46576,
+		"inputAbbreviatedPath": "\/assets\/img\/skyLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/skyLG.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2176,6 +2312,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/sunsetLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 957955,
+		"inputAbbreviatedPath": "\/assets\/img\/sunsetLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/sunsetLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/tree1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2183,6 +2330,83 @@
 		"initialSize": 44302,
 		"inputAbbreviatedPath": "\/assets\/img\/tree1.png",
 		"outputAbbreviatedPath": "\/assets\/img\/tree1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19827,
+		"inputAbbreviatedPath": "\/assets\/img\/tree10.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29082,
+		"inputAbbreviatedPath": "\/assets\/img\/tree11.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12796,
+		"inputAbbreviatedPath": "\/assets\/img\/tree12.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25422,
+		"inputAbbreviatedPath": "\/assets\/img\/tree13.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29979,
+		"inputAbbreviatedPath": "\/assets\/img\/tree14.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree15.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22869,
+		"inputAbbreviatedPath": "\/assets\/img\/tree15.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree15.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23684,
+		"inputAbbreviatedPath": "\/assets\/img\/tree16.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree16.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2220,6 +2444,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/tree5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34769,
+		"inputAbbreviatedPath": "\/assets\/img\/tree5.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43920,
+		"inputAbbreviatedPath": "\/assets\/img\/tree6.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30648,
+		"inputAbbreviatedPath": "\/assets\/img\/tree7.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27807,
+		"inputAbbreviatedPath": "\/assets\/img\/tree8.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/tree9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19888,
+		"inputAbbreviatedPath": "\/assets\/img\/tree9.png",
+		"outputAbbreviatedPath": "\/assets\/img\/tree9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/vanGuy.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2227,6 +2506,17 @@
 		"initialSize": 364044,
 		"inputAbbreviatedPath": "\/assets\/img\/vanGuy.png",
 		"outputAbbreviatedPath": "\/assets\/img\/vanGuy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/vanGuyLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 672733,
+		"inputAbbreviatedPath": "\/assets\/img\/vanGuyLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/vanGuyLG.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

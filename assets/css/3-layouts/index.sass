@@ -1,0 +1,503 @@
+body
+  font-family: $font
+  position: relative
+
+  main#index
+    background: $midnight
+    position: relative
+
+  @media all and (max-width: 1024px)
+    section.skyline
+      position: relative
+      overflow: hidden
+      margin: 0
+      background:
+        image: url(../img/backBox.png)
+        size: cover
+        position: center
+
+      .wrapper
+        height: 1024px
+
+        .sky
+          background:
+            image: url(../img/sky.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+
+        .comet1
+          position: absolute
+          top: 100px
+          width: 132px
+          height: 70px
+          background:
+            image: url(../img/comet1.png)
+            repeat: no-repeat
+
+        .comet2
+          position: absolute
+          top: 400px
+          width: 230px
+          height: 70px
+          background:
+            image: url(../img/comet2.png)
+            repeat: no-repeat
+
+        .stars
+          background:
+            image: url(../img/stars.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+
+        ul
+          li.layer
+            height: 100vh
+
+            .clouds
+              display: block
+              background:
+                image: url(../img/cloudsLG.png)
+                repeat: no-repeat
+              width: 150%
+              height: 100%
+              position: absolute
+              top: 0
+              left: -25%
+
+        .sunset
+          background:
+            image: url(../img/sunset.png)
+            repeat: no-repeat
+            attachment: fixed
+          width: 100%
+          height: 100%
+          position: absolute
+
+
+        .title
+          color: $white
+          position: absolute
+          top: 30%
+          left: 0
+          right: 0
+          @include display(flex)
+          @include align-items(center)
+          @include justify-content(center)
+
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+
+            #lead
+              font-size: 72px
+              font-weight: 300
+              margin: 0
+
+            #sublead
+              font-size: 20px
+              opacity: 0.5
+              font-weight: 100
+              margin: 0
+              padding-left: 5px
+
+
+        .mountains
+          background:
+            image: url(../img/mountains.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 75px
+
+        .backTrees
+          background:
+            image: url(../img/backTrees.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 75px
+
+        .midTrees
+          background:
+            image: url(../img/midTrees.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 50px
+
+        .frontTrees
+          background:
+            image: url(../img/frontTrees.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 300px
+
+
+    section.baseline
+      background: $darkness
+      margin: 0
+      padding-top: 100px
+      overflow: hidden
+      position: relative
+
+      p
+        text-align: center
+        font-size: 24px
+        font-weight: 100
+        color: $white
+        width: 100%
+        border-bottom: 1px solid rgba($white, 0.2)
+        line-height: 0.1em
+        margin: 20px 0 100px
+
+        span
+          background: $darkness
+          padding: 0 10px
+
+      #highlights
+        padding: 20px
+        @include display(flex)
+        @include justify-content(space-around)
+
+        img
+          background: $darkness
+          width: 200px
+
+        @media (min-width: 776px)
+          img:hover
+            @include transform(scale(1.25))
+            transition: all 300ms ease-in-out
+
+      .makeout-point
+        position: relative
+        bottom: 0
+        left: 0
+        right: 0
+        margin-top: 150px
+        padding-top: 50px
+        height: 100vh
+        max-width: 1366px
+        background:
+          image: url(../img/vanGuy.png)
+          size: cover
+          position: center
+
+        img#tree1
+          position: absolute
+          bottom: -1.5em
+          left: -2.5em
+
+        img#tree2
+          position: absolute
+          bottom: -1.2em
+          left: 5em
+          z-index: 1
+
+        img#tree3
+          position: absolute
+          bottom: -1.2em
+          right: 8em
+
+        img#tree4
+          position: absolute
+          bottom: -1.5em
+          right: -1em
+          z-index: 1
+
+        img#tree5,
+        img#tree6,
+        img#tree7,
+        img#tree8,
+        img#tree9,
+        img#tree10,
+        img#tree11,
+        img#tree12,
+        img#tree13,
+        img#tree14,
+        img#tree15,
+        img#tree16
+          display: none
+
+  @media all and (min-width: 1025px)
+    section.skyline
+      position: relative
+      overflow: hidden
+      margin: 0
+      background:
+        image: url(../img/backBox.png)
+        size: cover
+        position: center
+
+      .wrapper
+        height: 1024px
+
+        .sky
+          background:
+            image: url(../img/skyLG.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+
+        .comet1
+          position: absolute
+          top: 100px
+          width: 132px
+          height: 70px
+          background:
+            image: url(../img/comet1.png)
+            repeat: no-repeat
+
+        .comet2
+          position: absolute
+          top: 400px
+          width: 230px
+          height: 70px
+          background:
+            image: url(../img/comet2.png)
+            repeat: no-repeat
+
+        .stars
+          display: none
+          background:
+            image: url(../img/stars.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+
+        ul
+          li.layer
+            height: 100vh
+
+            .clouds
+              display: block
+              background:
+                image: url(../img/cloudsLG.png)
+                repeat: no-repeat
+              width: 150%
+              height: 100%
+              position: absolute
+              top: 0
+              left: -20px
+
+        .sunset
+          background:
+            image: url(../img/sunsetLG.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          left: 150px
+
+
+        .title
+          color: $white
+          position: absolute
+          top: 30%
+          left: 0
+          right: 0
+          @include display(flex)
+          @include align-items(center)
+          @include justify-content(center)
+
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+
+            #lead
+              font-size: 72px
+              font-weight: 300
+              margin: 0
+
+            #sublead
+              font-size: 20px
+              opacity: 0.5
+              font-weight: 100
+              margin: 0
+              padding-left: 5px
+
+
+        .mountains
+          background:
+            image: url(../img/mountainsLG.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 675px
+
+        .backTrees
+          display: none
+          background:
+            image: url(../img/backTrees.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 75px
+
+        .midTrees
+          background:
+            image: url(../img/midTreesLG.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 650px
+
+        .frontTrees
+          background:
+            image: url(../img/frontTreesLG.png)
+            repeat: no-repeat
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 400px
+
+
+    section.baseline
+      background: $darkness
+      margin: 0
+      padding-top: 100px
+      overflow: hidden
+      position: relative
+
+      p
+        text-align: center
+        font-size: 24px
+        font-weight: 100
+        color: $white
+        max-width: 90%
+        border-bottom: 1px solid rgba($white, 0.2)
+        line-height: 0.1em
+        margin: 20px auto 100px
+
+        span
+          background: $darkness
+          padding: 0 10px
+
+      #highlights
+        max-width: 85%
+        margin: 0 auto
+        padding: 20px
+        @include display(flex)
+        @include justify-content(space-around)
+
+        img
+          background: $darkness
+          width: 200px
+
+        @media (min-width: 776px)
+          img:hover
+            @include transform(scale(1.25))
+            transition: all 300ms ease-in-out
+
+      .makeout-point
+        height: 800px
+        width: 100%
+        margin-bottom: -50px
+        background:
+          image: url(../img/vanGuyLG.png)
+          repeat: no-repeat
+          position: bottom
+
+        img#tree1
+          position: absolute
+          bottom: -1.5em
+          left: 22%
+
+        img#tree2
+          position: absolute
+          bottom: -2em
+          left: 30%
+          z-index: 1
+
+        img#tree3
+          position: absolute
+          bottom: -1.2em
+          right: 26%
+
+        img#tree4
+          position: absolute
+          bottom: -1.5em
+          right: 15%
+          z-index: 1
+
+        img#tree5
+          position: absolute
+          bottom: -1.5em
+          left: -4.5%
+          z-index: 1
+
+        img#tree6
+          position: absolute
+          bottom: -0.5em
+          left: 3%
+
+        img#tree7
+          position: absolute
+          bottom: -1em
+          left: 7.5%
+          z-index: 1
+
+        img#tree8
+          position: absolute
+          bottom: -2em
+          left: 14%
+
+        img#tree9
+          position: absolute
+          bottom: -1.5em
+          left: 20%
+          z-index: 1
+
+        img#tree10
+          position: absolute
+          bottom: 0
+          right: 11%
+          z-index: 2
+
+        img#tree11
+          position: absolute
+          bottom: 0
+          right: 10%
+
+        img#tree12
+          position: absolute
+          bottom: 0
+          right: 7%
+          z-index: 1
+
+        img#tree13
+          position: absolute
+          bottom: 0
+          right: 7%
+
+        img#tree14
+          position: absolute
+          bottom: 0
+          right: 4%
+          z-index: 2
+
+        img#tree15
+          position: absolute
+          bottom: 0
+          right: 0.5%
+          z-index: 1
+
+        img#tree16
+          position: absolute
+          bottom: 0
+          right: -1em

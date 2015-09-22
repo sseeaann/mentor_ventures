@@ -1,0 +1,85 @@
+.animated
+  @include animation-fill-mode(both)
+
+@include keyframes(treeShake)
+  0%
+    @include transform(translate(0,0)  rotate(0deg))
+
+  20%
+    @include transform(translate(0,0)  rotate(2deg))
+
+  40%
+    @include transform(translate(0,0)  rotate(-1deg))
+
+  60%
+    @include transform(translate(0,0)  rotate(0.5deg))
+
+  80%
+    @include transform(translate(0,0)  rotate(-0.5deg))
+
+  100%
+    @include transform(translate(0,0)  rotate(0deg))
+
+.treeShake
+  @include animation-name(treeShake)
+  @include transform-origin(bottom)
+  @include animation-duration(4s)
+
+@include keyframes(bounceIn)
+  from, 20%, 40%, 60%, 80%, to
+    @include animation-timing-function(ease-out)
+
+  0%
+    opacity: 1
+    @include transform(scale3d(.6, .6, .6))
+
+  20%
+    @include transform(scale3d(1.1, 1.1, 1.1))
+
+  40%
+    @include transform(scale3d(.9, .9, .9))
+
+  60%
+    opacity: 1
+    @include transform(scale3d(1.03, 1.03, 1.03))
+
+  80%
+    @include transform(scale3d(.97, .97, .97))
+
+  to
+    opacity: 1
+    @include transform(scale3d(1, 1, 1))
+
+
+.bounceIn
+  @include animation-name(bounceIn)
+  @include animation-duration(2s)
+
+@include keyframes(flash)
+  from, 50%, to
+    opacity: 1
+
+  25%, 75%
+    opacity: .5
+
+.flash
+  @include animation-name(flash)
+  @include animation-iteration-count(infinite)
+  @include animation-duration(1s)
+
+.shootingStar-slow
+  @include animation(shootingStar linear 10s)
+  @include animation-iteration-count(infinite)
+  @include transform-origin(100% 100%)
+
+.shootingStar
+  @include animation(shootingStar linear 7s)
+  @include animation-iteration-count(infinite)
+  @include transform-origin(100% 100%)
+
+@include keyframes(shootingStar)
+  0%
+    @include transform(translate(-2000px,0px) rotate(20deg))
+
+  100%
+    @include transform(translate(3000px,20px) rotate(25deg))
