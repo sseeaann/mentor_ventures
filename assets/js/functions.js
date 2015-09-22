@@ -47,6 +47,15 @@ $(function() {
     }
   });
 
+// Contact Us Overlay
+  $('li#contactUs').on('click', function(){
+    $('.overlay').addClass('is-open');
+  });
+
+  $('.close-btn').on('click', function(){
+    $('.overlay').removeClass('is-open');
+  });
+
 // Parallax.js
   $('#scene').parallax();
 
