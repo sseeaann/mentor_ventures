@@ -1130,8 +1130,8 @@ nav {
   color: #fff; }
   .modal .close-btn {
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 20px;
+    right: 5%;
     height: 50px;
     width: 50px;
     font-size: 50px;
@@ -1142,81 +1142,82 @@ nav {
     transition: all 100ms ease-in-out; }
     .modal .close-btn:hover {
       transform: scale(1.3); }
-  .modal .container h2 {
-    font-weight: 300; }
-  .modal .container p {
-    line-height: 1.5;
-    font-weight: 100;
-    font-size: 18px; }
-    .modal .container p a {
-      color: #2CFFD6;
-      text-decoration: none; }
-  .modal .container form {
-    color: black;
-    position: relative; }
-    .modal .container form .formInput {
-      display: inline-block;
-      vertical-align: top;
-      position: absolute;
-      right: 0;
-      top: 0; }
-      .modal .container form .formInput:first-child {
-        left: 0; }
-        .modal .container form .formInput:first-child input {
-          display: block;
-          margin-bottom: 27px;
-          background: #979797;
-          width: 400px;
-          height: 42px;
+  .modal .container {
+    padding-top: 20px; }
+    .modal .container h2 {
+      font-weight: 300; }
+    .modal .container p {
+      line-height: 1.5;
+      font-weight: 100;
+      font-size: 18px; }
+      .modal .container p a {
+        color: #2CFFD6;
+        text-decoration: none; }
+    .modal .container form {
+      color: black;
+      position: relative; }
+      .modal .container form .formInput {
+        display: inline-block;
+        vertical-align: top;
+        float: right;
+        width: 50%; }
+        .modal .container form .formInput:first-child {
+          float: left;
+          width: 40%; }
+          .modal .container form .formInput:first-child input {
+            display: block;
+            margin-bottom: 27px;
+            background: #979797;
+            width: 100%;
+            height: 42px;
+            border-radius: 3px;
+            border-color: #888;
+            padding: 1px 5px; }
+            .modal .container form .formInput:first-child input::-webkit-input-placeholder {
+              color: #fff;
+              font-weight: 100; }
+            .modal .container form .formInput:first-child input::-moz-placeholder {
+              color: #fff;
+              font-weight: 100; }
+            .modal .container form .formInput:first-child input:-moz-placeholder {
+              color: #fff;
+              font-weight: 100; }
+            .modal .container form .formInput:first-child input:-ms-input-placeholder {
+              color: #fff;
+              font-weight: 100; }
+        .modal .container form .formInput textarea {
+          width: 100%;
+          height: 192px;
           border-radius: 3px;
-          border-color: #888;
-          padding: 1px 5px; }
-          .modal .container form .formInput:first-child input::-webkit-input-placeholder {
-            color: #fff;
+          overflow: scroll;
+          padding: 5px; }
+          .modal .container form .formInput textarea::-webkit-input-placeholder {
+            color: #242C35;
+            opacity: 0.8;
             font-weight: 100; }
-          .modal .container form .formInput:first-child input::-moz-placeholder {
-            color: #fff;
+          .modal .container form .formInput textarea::-moz-placeholder {
+            color: #242C35;
+            opacity: 0.8;
             font-weight: 100; }
-          .modal .container form .formInput:first-child input:-moz-placeholder {
-            color: #fff;
+          .modal .container form .formInput textarea:-moz-placeholder {
+            color: #242C35;
+            opacity: 0.8;
             font-weight: 100; }
-          .modal .container form .formInput:first-child input:-ms-input-placeholder {
-            color: #fff;
+          .modal .container form .formInput textarea:-ms-input-placeholder {
+            color: #242C35;
+            opacity: 0.8;
             font-weight: 100; }
-      .modal .container form .formInput textarea {
-        width: 500px;
-        height: 192px;
-        border-radius: 3px;
-        overflow: scroll;
-        padding: 5px; }
-        .modal .container form .formInput textarea::-webkit-input-placeholder {
-          color: #242C35;
-          opacity: 0.8;
-          font-weight: 100; }
-        .modal .container form .formInput textarea::-moz-placeholder {
-          color: #242C35;
-          opacity: 0.8;
-          font-weight: 100; }
-        .modal .container form .formInput textarea:-moz-placeholder {
-          color: #242C35;
-          opacity: 0.8;
-          font-weight: 100; }
-        .modal .container form .formInput textarea:-ms-input-placeholder {
-          color: #242C35;
-          opacity: 0.8;
-          font-weight: 100; }
-    .modal .container form .formBottom {
-      width: 100%;
-      position: absolute;
-      top: 250px;
-      text-align: right; }
-      .modal .container form .formBottom input {
-        background: #2CFFD6;
-        border-radius: 3px;
-        border: none;
-        line-height: 1.5;
-        padding: 7px 50px;
-        color: #fff; }
+      .modal .container form .formBottom {
+        width: 100%;
+        text-align: right;
+        clear: both; }
+        .modal .container form .formBottom input {
+          background: #2CFFD6;
+          border-radius: 3px;
+          border: none;
+          line-height: 1.5;
+          padding: 7px 50px;
+          color: #fff; }
 
 @media (max-width: 775px) {
   nav {
@@ -1236,4 +1237,10 @@ nav {
       top: 10px;
       z-index: 2; }
       nav .mobile-nav-toggle.is-open {
-        position: fixed; } }
+        position: fixed; }
+
+  .modal .container form .formInput {
+    display: block;
+    width: 100%; }
+    .modal .container form .formInput:first-child {
+      width: 100%; } }

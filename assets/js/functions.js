@@ -48,7 +48,7 @@ $(function() {
   });
 
 // Contact Us Overlay
-  $('li#contactUs').on('click', function(){
+  $('li.contactUs').on('click', function(){
     $('.overlay').addClass('is-open');
   });
 
