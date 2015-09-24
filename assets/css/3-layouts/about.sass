@@ -18,7 +18,7 @@ main#about
 
       .staff
         position: absolute
-        width: 1024px
+        max-width: 1024px
         bottom: 365px
         left: 0
         right: 0
@@ -46,22 +46,25 @@ main#about
             i.fa
               margin: 0 5px
 
+              &:hover
+                @include transform(scale(1.25))
+                transition: all 200ms ease-in-out
+
+            .fa-twitter:hover
+              color: #0090FF
+            .fa-github:hover
+              color: #000
+            .fa-dribbble:hover
+              color: #FF1290
+            .fa-linkedin:hover
+              color: #2C76B0
+
           p.icon1
             margin-top: 19px
             margin-bottom: 8px
 
             a
               color: #999
-
-          p.icon2
-            .fa-twitter
-              color: #0090FF
-            .fa-github
-              color: #000
-            .fa-dribbble
-              color: #FF1290
-            .fa-linkedin
-              color: #2C76B0
 
     #mobileStation
       display: none
@@ -88,7 +91,16 @@ main#about
         font-weight: 100
         font-size: 16px
 
-@media (max-width: 768px)
+@media all and (max-width: 1024px)
+  main#about
+    section#dudes
+      #workStation
+
+        img
+          width: 100vw
+          height: 1180px
+
+@media (max-width: 775px)
   main#about
     position: relative
 
@@ -118,16 +130,14 @@ main#about
 
             a
               display: inline-block
-              border-radius: 50%
-              width: 52px
-              height: 52px
-              background: $white
               line-height: normal
               margin: 0 5px
 
               i
-                padding: 1px
-                margin: 5px
+                margin: 5px auto
+                background: $white
+                border-radius: 50%
+                padding: 7.5px 10px
 
               .fa-twitter
                 color: #0090FF
@@ -178,7 +188,7 @@ main#about
           font-weight: 100
           font-size: 16px
 
-@media (min-width: 500px) and (max-width: 768px)
+@media (min-width: 500px) and (max-width: 775px)
   main#about
     position: relative
 
