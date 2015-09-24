@@ -77,6 +77,10 @@
   @include animation(shootingStar linear 8s)
   @include animation-iteration-count(infinite)
 
+.shootingStar-low
+  @include animation(shootingStar-low linear 7s)
+  @include animation-iteration-count(infinite)
+
 .shootingStar
   @include animation(shootingStar linear 7s)
   @include animation-iteration-count(infinite)
@@ -87,6 +91,13 @@
 
   100%
     @include transform(translate(3000px,-1000px))
+
+@include keyframes(shootingStar-low)
+  0%
+    @include transform(translate(-2000px,800px) rotate(5deg))
+
+  100%
+    @include transform(translate(3000px,-700px) rotate(5deg))
 
 
 // There's always room for jello

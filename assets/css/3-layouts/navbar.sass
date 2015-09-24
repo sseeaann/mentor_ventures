@@ -4,25 +4,19 @@ nav
   .logo
     display: inline-block
     position: absolute
-    margin: 5px 20px
     z-index: 1
+    padding: 10px 20px
+    left: 0
+    top: 0
 
     a
       display: inline-block
 
       img
-        width: 64px
+        width: 154px
 
-    h1
-      display: inline-block
-      margin: 0
-      font-weight: 400
-      font-size: 38px
-      width: 150px
-      position: absolute
-      left: 74px
-      top: 25px
-      color: $white
+  #logo2
+    display: none
 
   .desktop-nav
     padding-right: 50px
@@ -47,7 +41,7 @@ nav
           margin-left: auto
 
         &:hover
-          border: 1px solid $white
+          outline: 2px solid $white
 
         a
           text-decoration: none
@@ -299,3 +293,19 @@ nav
 
           input[type="submit"]
             width: 100%
+
+@media (max-width: 500px)
+  nav
+    position: relative
+
+    .logo
+      display: inline-block
+      position: absolute
+
+      #logo1
+        display: none
+
+      #logo2
+        display: block
+        width: 40px
+        height: 45px

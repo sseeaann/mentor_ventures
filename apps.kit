@@ -4,14 +4,52 @@
     <!-- @import _includes/head.html -->
   </head>
   <body>
-    <!-- @import _includes/navbar.html -->
-
     <main id="apps">
-      <p>...&nbsp;Coming soon</p>
-      <p>to a webpage near you&nbsp;...</p>
+      <section id="appsHeader">
+        <!-- @import _includes/navbar.html -->
+        <div class="wrapper" data-stellar-background-ratio="0.5">
+            <div class="comet shootingStar-low"></div>
+      			<div class="sky" data-stellar-background-ratio="0.25"></div>
+            <div class="moon" data-stellar-background-ratio="0.25"></div>
+            <ul id="scene">
+              <li class="layer" data-depth=0.20><div class="clouds"></div></li>
+            </ul>
+      	</div>
+      </section>
+
+      <section id="appsBody">
+        <div id="appsTitle">
+          <h1>Our Apps</h1>
+        </div>
+
+        <div class="appBox">
+
+        </div>
+
+        <div class="appBox" id="comingSoon">
+          <div id="comingSoonBox">
+            <p class="lead">
+              COMING SOON!
+            </p>
+            <p>
+              Our next app is in development, let us notify you when we are ready to launch the next big thing in personal safety?
+            </p>
+            <form>
+              <input type="email" name="email" placeholder="Enter email address">
+              <input type="submit" value="Get Notified">
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="appsFooter">
+        <p>
+          Design First &copy;Mentor Ventures Inc 2015
+        </p>
+      </section>
+
     </main>
 
-    <!-- @import _includes/footer.html -->
     <!-- @import _includes/scripts.html -->
   </body>
 </html>
