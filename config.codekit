@@ -2006,6 +2006,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/acquired2015.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5892,
+		"inputAbbreviatedPath": "\/assets\/img\/acquired2015.png",
+		"outputAbbreviatedPath": "\/assets\/img\/acquired2015.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/app-store.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4357,
+		"inputAbbreviatedPath": "\/assets\/img\/app-store.png",
+		"outputAbbreviatedPath": "\/assets\/img\/app-store.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/appClouds.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2083,6 +2105,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12551,
+		"inputAbbreviatedPath": "\/assets\/img\/blur.png",
+		"outputAbbreviatedPath": "\/assets\/img\/blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/clouds.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2134,6 +2167,28 @@
 		"initialSize": 68651,
 		"inputAbbreviatedPath": "\/assets\/img\/darkTree.png",
 		"outputAbbreviatedPath": "\/assets\/img\/darkTree.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/founderfox-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14975,
+		"inputAbbreviatedPath": "\/assets\/img\/founderfox-logo.png",
+		"outputAbbreviatedPath": "\/assets\/img\/founderfox-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/foxBG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 802848,
+		"inputAbbreviatedPath": "\/assets\/img\/foxBG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/foxBG.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
