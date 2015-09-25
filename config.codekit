@@ -2105,17 +2105,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/blur.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12551,
-		"inputAbbreviatedPath": "\/assets\/img\/blur.png",
-		"outputAbbreviatedPath": "\/assets\/img\/blur.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/img\/clouds.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2189,6 +2178,17 @@
 		"initialSize": 802848,
 		"inputAbbreviatedPath": "\/assets\/img\/foxBG.png",
 		"outputAbbreviatedPath": "\/assets\/img\/foxBG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/foxBlur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154114,
+		"inputAbbreviatedPath": "\/assets\/img\/foxBlur.png",
+		"outputAbbreviatedPath": "\/assets\/img\/foxBlur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
