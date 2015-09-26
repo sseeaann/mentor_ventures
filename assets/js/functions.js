@@ -1,5 +1,4 @@
 $(function() {
-  $.stellar();
 
   var isMobile = false; //initiate as false
 
@@ -28,7 +27,7 @@ $(function() {
         });
         $('.frontTrees').attr({
           'data-stellar-background-ratio':'1.35',
-          'data-stellar-vertical-offset':'-900'
+          'data-stellar-vertical-offset':'-850'
         });
       }
       if($(window).width() > 1009){
@@ -132,7 +131,7 @@ $(function() {
       });
       $('.frontTrees').attr({
         'data-stellar-background-ratio':'1.35',
-        'data-stellar-vertical-offset':'-900'
+        'data-stellar-vertical-offset':'-850'
       });
       $.stellar();
     }
@@ -152,6 +151,8 @@ $(function() {
       $.stellar();
     }
   }
+
+  $.stellar();
 
   var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
@@ -187,7 +188,7 @@ $(function() {
 
   });
 
-  $('#highlights img.animated').hover(function(){
+  $('.newsHighlights').hover(function(){
    $(this).addClass('jello').one(animationEnd, function(){
      $(this).removeClass('jello');
    });

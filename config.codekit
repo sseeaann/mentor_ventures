@@ -2050,6 +2050,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/appsSkyLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63758,
+		"inputAbbreviatedPath": "\/assets\/img\/appsSkyLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/appsSkyLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/backBox.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2332,6 +2343,28 @@
 		"initialSize": 169081,
 		"inputAbbreviatedPath": "\/assets\/img\/moon.png",
 		"outputAbbreviatedPath": "\/assets\/img\/moon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/moonLG.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198982,
+		"inputAbbreviatedPath": "\/assets\/img\/moonLG.png",
+		"outputAbbreviatedPath": "\/assets\/img\/moonLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/moonMobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2124,
+		"inputAbbreviatedPath": "\/assets\/img\/moonMobile.png",
+		"outputAbbreviatedPath": "\/assets\/img\/moonMobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
