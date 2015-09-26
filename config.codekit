@@ -2138,6 +2138,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/cloudsXL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264559,
+		"inputAbbreviatedPath": "\/assets\/img\/cloudsXL.png",
+		"outputAbbreviatedPath": "\/assets\/img\/cloudsXL.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/comet1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2222,6 +2233,17 @@
 		"initialSize": 386715,
 		"inputAbbreviatedPath": "\/assets\/img\/frontTreesLG.png",
 		"outputAbbreviatedPath": "\/assets\/img\/frontTreesLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/frontTreesXL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 476831,
+		"inputAbbreviatedPath": "\/assets\/img\/frontTreesXL.png",
+		"outputAbbreviatedPath": "\/assets\/img\/frontTreesXL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2325,6 +2347,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/midTreesXL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236599,
+		"inputAbbreviatedPath": "\/assets\/img\/midTreesXL.png",
+		"outputAbbreviatedPath": "\/assets\/img\/midTreesXL.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/mitchell.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2391,6 +2424,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/mountainsXL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363551,
+		"inputAbbreviatedPath": "\/assets\/img\/mountainsXL.png",
+		"outputAbbreviatedPath": "\/assets\/img\/mountainsXL.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/sky.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2409,6 +2453,17 @@
 		"initialSize": 46576,
 		"inputAbbreviatedPath": "\/assets\/img\/skyLG.png",
 		"outputAbbreviatedPath": "\/assets\/img\/skyLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/skyXL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72496,
+		"inputAbbreviatedPath": "\/assets\/img\/skyXL.png",
+		"outputAbbreviatedPath": "\/assets\/img\/skyXL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2442,6 +2497,17 @@
 		"initialSize": 957955,
 		"inputAbbreviatedPath": "\/assets\/img\/sunsetLG.png",
 		"outputAbbreviatedPath": "\/assets\/img\/sunsetLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/sunsetXL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03046e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/sunsetXL.png",
+		"outputAbbreviatedPath": "\/assets\/img\/sunsetXL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2640,6 +2706,17 @@
 		"initialSize": 672733,
 		"inputAbbreviatedPath": "\/assets\/img\/vanGuyLG.png",
 		"outputAbbreviatedPath": "\/assets\/img\/vanGuyLG.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/vanGuyXL.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 779118,
+		"inputAbbreviatedPath": "\/assets\/img\/vanGuyXL.png",
+		"outputAbbreviatedPath": "\/assets\/img\/vanGuyXL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

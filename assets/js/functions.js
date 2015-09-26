@@ -74,9 +74,8 @@ $(function() {
       });
       $('.frontTrees').attr({
         'data-stellar-background-ratio':'1.35',
-        'data-stellar-vertical-offset':'-150'
+        'data-stellar-vertical-offset':'-125'
       });
-      $.stellar();
     }
     if($(window).width() > 400 && $(window).width() <= 600){
       $('.sunset').attr({
@@ -95,7 +94,6 @@ $(function() {
         'data-stellar-background-ratio':'1.35',
         'data-stellar-vertical-offset':'-400'
       });
-      $.stellar();
     }
     if($(window).width() > 600 && $(window).width() <= 667){
       $('.sunset').attr({
@@ -114,7 +112,6 @@ $(function() {
         'data-stellar-background-ratio':'1.35',
         'data-stellar-vertical-offset':'-600'
       });
-      $.stellar();
     }
     if($(window).width() > 667 && $(window).width() <= 1009){
       $('.sunset').attr({
@@ -133,7 +130,6 @@ $(function() {
         'data-stellar-background-ratio':'1.35',
         'data-stellar-vertical-offset':'-850'
       });
-      $.stellar();
     }
     if($(window).width() > 1009){
       $('.sunset').attr({
@@ -148,11 +144,8 @@ $(function() {
         'data-stellar-background-ratio':'1.25',
         'data-stellar-vertical-offset':'-800'
       });
-      $.stellar();
     }
   }
-
-  $.stellar();
 
   var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
@@ -179,7 +172,7 @@ $(function() {
       }
 
       if($(window).width() < 700){
-        if(wScroll > $('.title').offset().top / 10){
+        if(wScroll > $('.title').offset().top / 15){
           $('.title').addClass('zoomIn');
         }
       }
@@ -218,7 +211,8 @@ $(function() {
     $('.overlay').removeClass('is-open');
   });
 
-// Parallax.js
+// Parallax
   $('#scene').parallax();
+  $.stellar();
 
 });

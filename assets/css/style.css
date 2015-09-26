@@ -1446,7 +1446,7 @@ body {
   font-family: "Roboto", sans-serif;
   position: relative; }
   body main#index {
-    background: #0F132A;
+    background: #0F111D;
     position: relative; }
   @media all and (max-width: 1024px) {
     body section.skyline {
@@ -1870,491 +1870,214 @@ body {
         body section.baseline .makeout-point img#tree16 {
           display: none; } }
   @media all and (max-width: 667px) {
-    body section.skyline {
-      position: relative;
-      overflow: hidden;
-      margin: 0;
-      background-image: url(../img/backBox.png);
-      background-size: cover;
-      background-position: center; }
-      body section.skyline .wrapper {
-        height: 924px;
-        position: relative; }
-        body section.skyline .wrapper .sky {
-          background-image: url(../img/sky.png);
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          position: absolute; }
-        body section.skyline .wrapper .comet1 {
-          position: absolute;
-          top: 100px;
-          width: 132px;
-          height: 70px;
-          background-image: url(../img/comet1.png);
-          background-repeat: no-repeat; }
-        body section.skyline .wrapper .comet2 {
-          position: absolute;
-          top: 400px;
-          width: 230px;
-          height: 70px;
-          background-image: url(../img/comet2.png);
-          background-repeat: no-repeat; }
-        body section.skyline .wrapper .stars {
-          background-image: url(../img/stars.png);
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          position: absolute; }
-        body section.skyline .wrapper ul li.layer {
-          height: 100vh; }
-          body section.skyline .wrapper ul li.layer .clouds {
-            display: block;
-            background-image: url(../img/cloudsLG.png);
-            background-repeat: no-repeat;
-            width: 150%;
-            height: 150%;
-            position: absolute;
-            top: 0;
-            left: -25%; }
-        body section.skyline .wrapper .sunset {
-          background-image: url(../img/sunset.png);
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: 125%;
-          background-position: -50px center;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 7%;
-          left: 0px; }
-        body section.skyline .wrapper .title {
-          color: #fff;
-          position: absolute;
-          top: 30%;
-          left: 0;
-          right: 0;
-          opacity: 0;
-          display: -webkit-box;
-          display: -moz-box;
-          display: box;
-          display: -webkit-flex;
-          display: -moz-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -moz-box-align: center;
-          box-align: center;
-          -webkit-align-items: center;
-          -moz-align-items: center;
-          -ms-align-items: center;
-          -o-align-items: center;
-          align-items: center;
-          -ms-flex-align: center;
-          -webkit-box-pack: center;
-          -moz-box-pack: center;
-          box-pack: center;
-          -webkit-justify-content: center;
-          -moz-justify-content: center;
-          -ms-justify-content: center;
-          -o-justify-content: center;
-          justify-content: center;
-          -ms-flex-pack: center; }
-        body section.skyline .wrapper .title.zoomIn {
-          opacity: 1; }
-          body section.skyline .wrapper .title.zoomIn ul {
-            list-style: none;
+    body section.skyline .wrapper {
+      height: 924px;
+      position: relative; }
+      body section.skyline .wrapper ul li.layer .clouds {
+        display: block;
+        background-image: url(../img/clouds.png);
+        background-repeat: no-repeat;
+        width: 150%;
+        height: 150%;
+        position: absolute;
+        top: 0;
+        left: -25%; }
+      body section.skyline .wrapper .sunset {
+        background-image: url(../img/sunset.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 125%;
+        background-position: -50px center;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 7%;
+        left: 0px; }
+      body section.skyline .wrapper .title {
+        color: #fff;
+        position: absolute;
+        top: 30%;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        box-align: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center; }
+      body section.skyline .wrapper .title.zoomIn {
+        opacity: 1; }
+        body section.skyline .wrapper .title.zoomIn ul {
+          list-style: none;
+          margin: 0;
+          padding: 0; }
+          body section.skyline .wrapper .title.zoomIn ul #lead {
+            font-size: 6vw;
+            font-weight: 300;
+            margin: 0; }
+          body section.skyline .wrapper .title.zoomIn ul #sublead {
+            font-size: 20px;
+            opacity: 0.5;
+            font-weight: 100;
             margin: 0;
-            padding: 0; }
-            body section.skyline .wrapper .title.zoomIn ul #lead {
-              font-size: 6vw;
-              font-weight: 300;
-              margin: 0; }
-            body section.skyline .wrapper .title.zoomIn ul #sublead {
-              font-size: 20px;
-              opacity: 0.5;
-              font-weight: 100;
-              margin: 0;
-              padding-left: 5px; }
-        body section.skyline .wrapper .mountains {
-          background-image: url(../img/mountains.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 75px;
-          left: -25%; }
-        body section.skyline .wrapper .backTrees {
-          background-image: url(../img/backTrees.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 75px;
-          left: -20%; }
-        body section.skyline .wrapper .midTrees {
-          background-image: url(../img/midTrees.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 50px; }
-        body section.skyline .wrapper .frontTrees {
-          background-image: url(../img/frontTrees.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 120%;
-          height: 100%;
-          position: absolute;
-          top: 425px; } }
-    @media all and (max-width: 667px) and (max-width: 500px) {
-      body section.skyline .wrapper .wrapper {
-        height: 824px; }
-        body section.skyline .wrapper .wrapper .frontTrees {
-          top: 375px; } }
+            padding-left: 5px; }
+      body section.skyline .wrapper .mountains {
+        background-size: 100%;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 75px;
+        left: -25%; }
+      body section.skyline .wrapper .backTrees {
+        background-size: 100%;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 75px;
+        left: -20%; }
+      body section.skyline .wrapper .midTrees {
+        background-size: 100%;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 50px; }
+      body section.skyline .wrapper .frontTrees {
+        background-size: 100%;
+        width: 120%;
+        height: 100%;
+        position: absolute;
+        top: 425px; } }
+  @media all and (max-width: 667px) and (max-width: 500px) {
+    body section.skyline .wrapper .wrapper {
+      height: 824px; }
+      body section.skyline .wrapper .wrapper .frontTrees {
+        top: 375px; } }
   @media all and (max-width: 667px) {
-    body section.baseline {
-      background: #0F111D;
-      margin: 0;
-      padding-top: 100px;
-      overflow: hidden;
-      position: relative; }
-      body section.baseline p {
-        text-align: center;
-        font-size: 24px;
-        font-weight: 100;
-        color: #fff;
-        width: 100%;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        line-height: 0.1em;
-        margin: 20px 0 100px; }
-        body section.baseline p span {
-          background: #0F111D;
-          padding: 0 10px; }
-      body section.baseline #highlights {
-        padding: 20px;
-        display: -webkit-box;
-        display: -moz-box;
-        display: box;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: distribute;
-        -moz-box-pack: distribute;
-        box-pack: distribute;
-        -webkit-justify-content: space-around;
-        -moz-justify-content: space-around;
-        -ms-justify-content: space-around;
-        -o-justify-content: space-around;
-        justify-content: space-around;
-        -ms-flex-pack: distribute;
-        -webkit-box-lines: multiple;
-        -moz-box-lines: multiple;
-        box-lines: multiple;
-        -webkit-flex-wrap: wrap;
-        -moz-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-        body section.baseline #highlights img {
-          background: #0F111D;
-          width: 134px;
-          height: 100px;
-          margin: 0 50px 50px; }
-      body section.baseline .makeout-point {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin-top: 15vh;
-        padding-top: 0px;
-        height: 200vh;
-        max-height: calc(1024px - 75vh);
-        max-width: 1366px;
-        background-image: url(../img/vanGuy.png);
-        background-size: calc(1024px - 25vw) auto;
-        background-repeat: no-repeat;
-        background-position: bottom center; }
-        body section.baseline .makeout-point img#tree1 {
-          height: 47%;
-          position: absolute;
-          bottom: -1.5em;
-          left: -8%; }
-        body section.baseline .makeout-point img#tree2 {
-          height: 37%;
-          position: absolute;
-          bottom: -1.2em;
-          left: 5%;
-          z-index: 1; }
-        body section.baseline .makeout-point img#tree3 {
-          height: 40%;
-          position: absolute;
-          bottom: -1.2em;
-          right: 8%; }
-        body section.baseline .makeout-point img#tree4 {
-          height: 50%;
-          position: absolute;
-          bottom: -1.5em;
-          right: -8%;
-          z-index: 1; }
-        body section.baseline .makeout-point img#tree5,
-        body section.baseline .makeout-point img#tree6,
-        body section.baseline .makeout-point img#tree7,
-        body section.baseline .makeout-point img#tree8,
-        body section.baseline .makeout-point img#tree9,
-        body section.baseline .makeout-point img#tree10,
-        body section.baseline .makeout-point img#tree11,
-        body section.baseline .makeout-point img#tree12,
-        body section.baseline .makeout-point img#tree13,
-        body section.baseline .makeout-point img#tree14,
-        body section.baseline .makeout-point img#tree15,
-        body section.baseline .makeout-point img#tree16 {
-          display: none; } }
-  @media all and (max-width: 414px) {
-    body section.skyline {
+    body section.baseline #highlights {
+      padding: 20px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: distribute;
+      -moz-box-pack: distribute;
+      box-pack: distribute;
+      -webkit-justify-content: space-around;
+      -moz-justify-content: space-around;
+      -ms-justify-content: space-around;
+      -o-justify-content: space-around;
+      justify-content: space-around;
+      -ms-flex-pack: distribute;
+      -webkit-box-lines: multiple;
+      -moz-box-lines: multiple;
+      box-lines: multiple;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      body section.baseline #highlights img {
+        background: #0F111D;
+        width: 134px;
+        height: 100px;
+        margin: 0 50px 50px; }
+    body section.baseline .makeout-point {
       position: relative;
-      overflow: hidden;
-      margin: 0;
-      background-image: url(../img/backBox.png);
-      background-size: cover;
-      background-position: center; }
-      body section.skyline .wrapper {
-        height: 110vh;
-        position: relative; }
-        body section.skyline .wrapper .sky {
-          background-image: url(../img/sky.png);
-          background-repeat: no-repeat;
-          background-size: cover;
-          width: 100%;
-          height: 100%;
-          position: absolute; }
-        body section.skyline .wrapper .comet1 {
-          position: absolute;
-          top: 100px;
-          width: 132px;
-          height: 70px;
-          background-image: url(../img/comet1.png);
-          background-repeat: no-repeat; }
-        body section.skyline .wrapper .comet2 {
-          position: absolute;
-          top: 400px;
-          width: 230px;
-          height: 70px;
-          background-image: url(../img/comet2.png);
-          background-repeat: no-repeat; }
-        body section.skyline .wrapper .stars {
-          background-image: url(../img/stars.png);
-          background-repeat: no-repeat;
-          background-size: cover;
-          width: 100%;
-          height: 100%;
-          position: absolute; }
-        body section.skyline .wrapper ul li.layer {
-          height: 100vh; }
-          body section.skyline .wrapper ul li.layer .clouds {
-            display: block;
-            background-image: url(../img/cloudsLG.png);
-            background-repeat: no-repeat;
-            background-size: 125%;
-            width: 150%;
-            height: 100%;
-            position: absolute;
-            top: 100px;
-            left: -25%; }
-        body section.skyline .wrapper .sunset {
-          background-image: url(../img/sunset.png);
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: 125%;
-          background-position: -50px center;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 7%;
-          left: 0px; }
-        body section.skyline .wrapper .title {
-          color: #fff;
-          position: absolute;
-          top: 30%;
-          left: 0;
-          right: 0;
-          opacity: 0;
-          display: -webkit-box;
-          display: -moz-box;
-          display: box;
-          display: -webkit-flex;
-          display: -moz-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: center;
-          -moz-box-align: center;
-          box-align: center;
-          -webkit-align-items: center;
-          -moz-align-items: center;
-          -ms-align-items: center;
-          -o-align-items: center;
-          align-items: center;
-          -ms-flex-align: center;
-          -webkit-box-pack: center;
-          -moz-box-pack: center;
-          box-pack: center;
-          -webkit-justify-content: center;
-          -moz-justify-content: center;
-          -ms-justify-content: center;
-          -o-justify-content: center;
-          justify-content: center;
-          -ms-flex-pack: center; }
-        body section.skyline .wrapper .title.zoomIn {
-          opacity: 1; }
-          body section.skyline .wrapper .title.zoomIn ul {
-            list-style: none;
-            margin: 0;
-            padding: 0; }
-            body section.skyline .wrapper .title.zoomIn ul #lead {
-              font-size: 6vw;
-              font-weight: 300;
-              margin: 0; }
-            body section.skyline .wrapper .title.zoomIn ul #sublead {
-              font-size: 20px;
-              opacity: 0.5;
-              font-weight: 100;
-              margin: 0;
-              padding-left: 5px; }
-        body section.skyline .wrapper .mountains {
-          background-image: url(../img/mountains.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 75px;
-          left: -25%; }
-        body section.skyline .wrapper .backTrees {
-          background-image: url(../img/backTrees.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 75px;
-          left: -20%; }
-        body section.skyline .wrapper .midTrees {
-          background-image: url(../img/midTrees.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 150%;
-          height: 100%;
-          position: absolute;
-          top: 50px; }
-        body section.skyline .wrapper .frontTrees {
-          background-image: url(../img/frontTrees.png);
-          background-repeat: no-repeat;
-          background-size: 100%;
-          width: 120%;
-          height: 100%;
-          position: absolute;
-          top: 275px; }
-    body section.baseline {
-      background: #0F111D;
-      margin: 0;
-      padding-top: 100px;
-      overflow: hidden;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin-top: 15vh;
+      padding-top: 0px;
+      height: 200vh;
+      max-height: calc(1024px - 75vh);
+      max-width: 1366px;
+      background-image: url(../img/vanGuy.png);
+      background-size: calc(1024px - 25vw) auto;
+      background-repeat: no-repeat;
+      background-position: bottom center; }
+      body section.baseline .makeout-point img#tree1 {
+        height: 47%;
+        position: absolute;
+        bottom: -1.5em;
+        left: -8%; }
+      body section.baseline .makeout-point img#tree2 {
+        height: 37%;
+        position: absolute;
+        bottom: -1.2em;
+        left: 5%;
+        z-index: 1; }
+      body section.baseline .makeout-point img#tree3 {
+        height: 40%;
+        position: absolute;
+        bottom: -1.2em;
+        right: 8%; }
+      body section.baseline .makeout-point img#tree4 {
+        height: 50%;
+        position: absolute;
+        bottom: -1.5em;
+        right: -8%;
+        z-index: 1; } }
+  @media all and (max-width: 414px) {
+    body section.skyline .wrapper {
+      height: 100vh;
       position: relative; }
-      body section.baseline p {
-        text-align: center;
-        font-size: 24px;
-        font-weight: 100;
-        color: #fff;
-        width: 100%;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        line-height: 0.1em;
-        margin: 20px 0 100px; }
-        body section.baseline p span {
-          background: #0F111D;
-          padding: 0 10px; }
-      body section.baseline #highlights {
-        padding: 20px;
-        display: -webkit-box;
-        display: -moz-box;
-        display: box;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: distribute;
-        -moz-box-pack: distribute;
-        box-pack: distribute;
-        -webkit-justify-content: space-around;
-        -moz-justify-content: space-around;
-        -ms-justify-content: space-around;
-        -o-justify-content: space-around;
-        justify-content: space-around;
-        -ms-flex-pack: distribute;
-        -webkit-box-lines: multiple;
-        -moz-box-lines: multiple;
-        box-lines: multiple;
-        -webkit-flex-wrap: wrap;
-        -moz-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-        body section.baseline #highlights img {
-          background: #0F111D;
-          width: 134px;
-          height: 100px;
-          margin: 0 50px 50px; }
-      body section.baseline .makeout-point {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin-top: 15vh;
-        padding-top: 0px;
-        height: 200vh;
-        max-height: calc(1024px - 75vh);
-        max-width: 1366px;
-        background-image: url(../img/vanGuy.png);
-        background-size: calc(1024px - 25vw) auto;
+      body section.skyline .wrapper .sky {
+        background-image: url(../img/sky.png);
         background-repeat: no-repeat;
-        background-position: bottom center; }
-        body section.baseline .makeout-point img#tree1 {
-          height: 47%;
-          position: absolute;
-          bottom: -1.5em;
-          left: -8%; }
-        body section.baseline .makeout-point img#tree2 {
-          height: 37%;
-          position: absolute;
-          bottom: -1.2em;
-          left: 5%;
-          z-index: 1; }
-        body section.baseline .makeout-point img#tree3 {
-          height: 40%;
-          position: absolute;
-          bottom: -1.2em;
-          right: 8%; }
-        body section.baseline .makeout-point img#tree4 {
-          height: 50%;
-          position: absolute;
-          bottom: -1.5em;
-          right: -8%;
-          z-index: 1; }
-        body section.baseline .makeout-point img#tree5,
-        body section.baseline .makeout-point img#tree6,
-        body section.baseline .makeout-point img#tree7,
-        body section.baseline .makeout-point img#tree8,
-        body section.baseline .makeout-point img#tree9,
-        body section.baseline .makeout-point img#tree10,
-        body section.baseline .makeout-point img#tree11,
-        body section.baseline .makeout-point img#tree12,
-        body section.baseline .makeout-point img#tree13,
-        body section.baseline .makeout-point img#tree14,
-        body section.baseline .makeout-point img#tree15,
-        body section.baseline .makeout-point img#tree16 {
-          display: none; } }
-  @media all and (min-width: 1025px) {
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+      body section.skyline .wrapper .stars {
+        background-image: url(../img/stars.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+      body section.skyline .wrapper ul li.layer .clouds {
+        display: block;
+        background-image: url(../img/cloudsLG.png);
+        background-repeat: no-repeat;
+        background-size: 125%;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 100px;
+        left: -25%; }
+      body section.skyline .wrapper .frontTrees {
+        background-image: url(../img/frontTrees.png);
+        background-repeat: no-repeat;
+        background-size: 105%;
+        width: 120%;
+        height: 100%;
+        position: absolute;
+        top: 275px; }
+    body section.baseline .makeout-point {
+      background-size: 175% 100%; } }
+  @media all and (min-width: 1025px) and (max-width: 2000px) {
     body section.skyline {
       position: relative;
       overflow: hidden;
@@ -2385,12 +2108,7 @@ body {
           background-image: url(../img/comet2.png);
           background-repeat: no-repeat; }
         body section.skyline .wrapper .stars {
-          display: none;
-          background-image: url(../img/stars.png);
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          position: absolute; }
+          display: none; }
         body section.skyline .wrapper ul li.layer {
           height: 100vh; }
           body section.skyline .wrapper ul li.layer .clouds {
@@ -2462,13 +2180,7 @@ body {
           position: absolute;
           top: 675px; }
         body section.skyline .wrapper .backTrees {
-          display: none;
-          background-image: url(../img/backTrees.png);
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          top: 75px; }
+          display: none; }
         body section.skyline .wrapper .midTrees {
           background-image: url(../img/midTreesLG.png);
           background-repeat: no-repeat;
@@ -2532,6 +2244,246 @@ body {
         background-image: url(../img/vanGuyLG.png);
         background-repeat: no-repeat;
         background-position: bottom; }
+        body section.baseline .makeout-point img#tree1 {
+          position: absolute;
+          bottom: -1.5em;
+          left: 22%; }
+        body section.baseline .makeout-point img#tree2 {
+          position: absolute;
+          bottom: -2em;
+          left: 30%;
+          z-index: 1; }
+        body section.baseline .makeout-point img#tree3 {
+          position: absolute;
+          bottom: -1.2em;
+          right: 26%; }
+        body section.baseline .makeout-point img#tree4 {
+          position: absolute;
+          bottom: -1.5em;
+          right: 15%;
+          z-index: 1; }
+        body section.baseline .makeout-point img#tree5 {
+          position: absolute;
+          bottom: -1.5em;
+          left: -4.5%;
+          z-index: 1; }
+        body section.baseline .makeout-point img#tree6 {
+          position: absolute;
+          bottom: -0.5em;
+          left: 3%; }
+        body section.baseline .makeout-point img#tree7 {
+          position: absolute;
+          bottom: -1em;
+          left: 7.5%;
+          z-index: 1; }
+        body section.baseline .makeout-point img#tree8 {
+          position: absolute;
+          bottom: -2em;
+          left: 14%; }
+        body section.baseline .makeout-point img#tree9 {
+          position: absolute;
+          bottom: -1.5em;
+          left: 20%;
+          z-index: 1; }
+        body section.baseline .makeout-point img#tree10 {
+          position: absolute;
+          bottom: 0;
+          right: 11%;
+          z-index: 2; }
+        body section.baseline .makeout-point img#tree11 {
+          position: absolute;
+          bottom: 0;
+          right: 10%; }
+        body section.baseline .makeout-point img#tree12 {
+          position: absolute;
+          bottom: 0;
+          right: 7%;
+          z-index: 1; }
+        body section.baseline .makeout-point img#tree13 {
+          position: absolute;
+          bottom: 0;
+          right: 7%; }
+        body section.baseline .makeout-point img#tree14 {
+          position: absolute;
+          bottom: 0;
+          right: 4%;
+          z-index: 2; }
+        body section.baseline .makeout-point img#tree15 {
+          position: absolute;
+          bottom: 0;
+          right: 0.5%;
+          z-index: 1; }
+        body section.baseline .makeout-point img#tree16 {
+          position: absolute;
+          bottom: 0;
+          right: -1em; } }
+  @media all and (min-width: 2001px) {
+    body section.skyline {
+      position: relative;
+      overflow: hidden;
+      margin: 0;
+      background-image: url(../img/backBox.png);
+      background-size: cover;
+      background-position: center; }
+      body section.skyline .wrapper {
+        height: 1024px; }
+        body section.skyline .wrapper .sky {
+          background-image: url(../img/skyXL.png);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          position: absolute; }
+        body section.skyline .wrapper .comet1 {
+          position: absolute;
+          top: 100px;
+          width: 132px;
+          height: 70px;
+          background-image: url(../img/comet1.png);
+          background-repeat: no-repeat; }
+        body section.skyline .wrapper .comet2 {
+          position: absolute;
+          top: 500px;
+          width: 230px;
+          height: 70px;
+          background-image: url(../img/comet2.png);
+          background-repeat: no-repeat; }
+        body section.skyline .wrapper .stars {
+          display: none; }
+        body section.skyline .wrapper ul li.layer {
+          height: 100vh; }
+          body section.skyline .wrapper ul li.layer .clouds {
+            display: block;
+            background-image: url(../img/cloudsXL.png);
+            background-repeat: no-repeat;
+            width: 150%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: -20px; }
+        body section.skyline .wrapper .sunset {
+          background-image: url(../img/sunsetXL.png);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 450px; }
+        body section.skyline .wrapper .title {
+          color: #fff;
+          position: absolute;
+          top: 30%;
+          left: 0;
+          right: 0;
+          display: -webkit-box;
+          display: -moz-box;
+          display: box;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -moz-box-align: center;
+          box-align: center;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          -ms-align-items: center;
+          -o-align-items: center;
+          align-items: center;
+          -ms-flex-align: center;
+          -webkit-box-pack: center;
+          -moz-box-pack: center;
+          box-pack: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          -ms-justify-content: center;
+          -o-justify-content: center;
+          justify-content: center;
+          -ms-flex-pack: center; }
+          body section.skyline .wrapper .title ul {
+            list-style: none;
+            margin: 0;
+            padding: 0; }
+            body section.skyline .wrapper .title ul #lead {
+              font-size: 72px;
+              font-weight: 300;
+              margin: 0; }
+            body section.skyline .wrapper .title ul #sublead {
+              font-size: 20px;
+              opacity: 0.5;
+              font-weight: 100;
+              margin: 0;
+              padding-left: 5px; }
+        body section.skyline .wrapper .mountains {
+          background-image: url(../img/mountainsXL.png);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 675px; }
+        body section.skyline .wrapper .backTrees {
+          display: none; }
+        body section.skyline .wrapper .midTrees {
+          background-image: url(../img/midTreesXL.png);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 650px; }
+        body section.skyline .wrapper .frontTrees {
+          background-image: url(../img/frontTreesXL.png);
+          background-repeat: no-repeat;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 450px; }
+    body section.baseline {
+      background: #0F111D;
+      margin: 0;
+      padding-top: 100px;
+      overflow: hidden;
+      position: relative; }
+      body section.baseline p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 100;
+        color: #fff;
+        max-width: 90%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        line-height: 0.1em;
+        margin: 20px auto 100px; }
+        body section.baseline p span {
+          background: #0F111D;
+          padding: 0 10px; }
+      body section.baseline #highlights {
+        max-width: 75%;
+        margin: 0 auto;
+        padding: 20px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: distribute;
+        -moz-box-pack: distribute;
+        box-pack: distribute;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+        -ms-justify-content: space-around;
+        -o-justify-content: space-around;
+        justify-content: space-around;
+        -ms-flex-pack: distribute; }
+        body section.baseline #highlights img {
+          background: #0F111D;
+          width: 134px;
+          height: 100px; }
+      body section.baseline .makeout-point {
+        height: 800px;
+        width: 100%;
+        margin-bottom: -50px;
+        background-image: url(../img/vanGuyXL.png);
+        background-repeat: no-repeat;
+        background-position: bottom left; }
         body section.baseline .makeout-point img#tree1 {
           position: absolute;
           bottom: -1.5em;
