@@ -364,7 +364,8 @@ th {
   margin: 0 auto; }
 
 main#about {
-  position: relative; }
+  position: relative;
+  background: #242C35; }
   main#about section#dudes {
     background-image: url(../img/aboutBG.png);
     height: 900px; }
@@ -539,6 +540,11 @@ main#about {
         -o-justify-content: space-around;
         justify-content: space-around;
         -ms-flex-pack: distribute; } }
+@media (min-height: 1240px) {
+  main#about {
+    position: relative;
+    background: #242C35;
+    min-height: 100vh; } }
 .animated {
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
@@ -1508,6 +1514,7 @@ body {
           top: 30%;
           left: 0;
           right: 0;
+          opacity: 0;
           display: -webkit-box;
           display: -moz-box;
           display: box;
@@ -1533,15 +1540,17 @@ body {
           -o-justify-content: center;
           justify-content: center;
           -ms-flex-pack: center; }
-          body section.skyline .wrapper .title ul {
+        body section.skyline .wrapper .title.zoomIn {
+          opacity: 1; }
+          body section.skyline .wrapper .title.zoomIn ul {
             list-style: none;
             margin: 0;
             padding: 0; }
-            body section.skyline .wrapper .title ul #lead {
+            body section.skyline .wrapper .title.zoomIn ul #lead {
               font-size: 72px;
               font-weight: 300;
               margin: 0; }
-            body section.skyline .wrapper .title ul #sublead {
+            body section.skyline .wrapper .title.zoomIn ul #sublead {
               font-size: 20px;
               opacity: 0.5;
               font-weight: 100;
@@ -1718,6 +1727,7 @@ body {
           top: 30%;
           left: 0;
           right: 0;
+          opacity: 0;
           display: -webkit-box;
           display: -moz-box;
           display: box;
@@ -1743,15 +1753,17 @@ body {
           -o-justify-content: center;
           justify-content: center;
           -ms-flex-pack: center; }
-          body section.skyline .wrapper .title ul {
+        body section.skyline .wrapper .title.zoomIn {
+          opacity: 1; }
+          body section.skyline .wrapper .title.zoomIn ul {
             list-style: none;
             margin: 0;
             padding: 0; }
-            body section.skyline .wrapper .title ul #lead {
+            body section.skyline .wrapper .title.zoomIn ul #lead {
               font-size: 6vw;
               font-weight: 300;
               margin: 0; }
-            body section.skyline .wrapper .title ul #sublead {
+            body section.skyline .wrapper .title.zoomIn ul #sublead {
               font-size: 2.5vw;
               opacity: 0.5;
               font-weight: 100;
@@ -1871,8 +1883,22 @@ body {
           display: none; } }
   @media all and (max-width: 667px) {
     body section.skyline .wrapper {
-      height: 924px;
+      height: 200vh;
       position: relative; }
+      body section.skyline .wrapper .comet1 {
+        position: absolute;
+        top: 10%;
+        width: 132px;
+        height: 70px;
+        background-image: url(../img/comet1.png);
+        background-repeat: no-repeat; }
+      body section.skyline .wrapper .comet2 {
+        position: absolute;
+        top: 20%;
+        width: 230px;
+        height: 70px;
+        background-image: url(../img/comet2.png);
+        background-repeat: no-repeat; }
       body section.skyline .wrapper ul li.layer .clouds {
         display: block;
         background-image: url(../img/clouds.png);
@@ -1885,18 +1911,16 @@ body {
       body section.skyline .wrapper .sunset {
         background-image: url(../img/sunset.png);
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 125%;
-        background-position: -50px center;
-        width: 150%;
+        background-size: cover;
+        width: 100%;
         height: 100%;
         position: absolute;
-        top: 7%;
+        top: 0;
         left: 0px; }
       body section.skyline .wrapper .title {
         color: #fff;
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 0;
         right: 0;
         opacity: 0;
@@ -1940,33 +1964,33 @@ body {
             opacity: 0.5;
             font-weight: 100;
             margin: 0;
-            padding-left: 5px; }
+            padding-left: 2px; }
       body section.skyline .wrapper .mountains {
         background-size: 100%;
-        width: 150%;
+        width: 100%;
         height: 100%;
         position: absolute;
-        top: 75px;
-        left: -25%; }
+        top: 0;
+        left: 0; }
       body section.skyline .wrapper .backTrees {
         background-size: 100%;
-        width: 150%;
+        width: 100%;
         height: 100%;
         position: absolute;
-        top: 75px;
-        left: -20%; }
+        top: 0;
+        left: 0; }
       body section.skyline .wrapper .midTrees {
         background-size: 100%;
-        width: 150%;
+        width: 100%;
         height: 100%;
         position: absolute;
-        top: 50px; }
+        top: 0; }
       body section.skyline .wrapper .frontTrees {
         background-size: 100%;
-        width: 120%;
+        width: 100%;
         height: 100%;
         position: absolute;
-        top: 425px; } }
+        top: 40%; } }
   @media all and (max-width: 667px) and (max-width: 500px) {
     body section.skyline .wrapper .wrapper {
       height: 824px; }
@@ -2057,6 +2081,78 @@ body {
         width: 100%;
         height: 100%;
         position: absolute; }
+      body section.skyline .wrapper .sunset {
+        background-image: url(../img/sunset.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      body section.skyline .wrapper .comet1 {
+        position: absolute;
+        top: 0%;
+        width: 132px;
+        height: 70px;
+        background-image: url(../img/comet1.png);
+        background-repeat: no-repeat; }
+      body section.skyline .wrapper .comet2 {
+        position: absolute;
+        top: 5%;
+        width: 230px;
+        height: 70px;
+        background-image: url(../img/comet2.png);
+        background-repeat: no-repeat; }
+      body section.skyline .wrapper .title {
+        color: #fff;
+        position: absolute;
+        top: 25vh;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        box-align: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        box-pack: center;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+        -ms-flex-pack: center; }
+      body section.skyline .wrapper .title.zoomIn {
+        opacity: 1; }
+        body section.skyline .wrapper .title.zoomIn ul {
+          list-style: none;
+          margin: 0;
+          padding: 0; }
+          body section.skyline .wrapper .title.zoomIn ul #lead {
+            font-size: 6vw;
+            font-weight: 300;
+            margin: 0; }
+          body section.skyline .wrapper .title.zoomIn ul #sublead {
+            font-size: 4vw;
+            opacity: 0.5;
+            font-weight: 100;
+            margin: 0;
+            padding-left: 2px; }
       body section.skyline .wrapper ul li.layer .clouds {
         display: block;
         background-image: url(../img/cloudsLG.png);
@@ -2067,16 +2163,37 @@ body {
         position: absolute;
         top: 100px;
         left: -25%; }
+      body section.skyline .wrapper .mountains {
+        background-size: 100%;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: -25%; }
+      body section.skyline .wrapper .backTrees {
+        background-size: 100%;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: -20%; }
+      body section.skyline .wrapper .midTrees {
+        background-size: 100%;
+        width: 150%;
+        height: 100%;
+        position: absolute;
+        top: 0; }
       body section.skyline .wrapper .frontTrees {
         background-image: url(../img/frontTrees.png);
         background-repeat: no-repeat;
-        background-size: 105%;
-        width: 120%;
+        background-size: 100%;
+        width: 100%;
         height: 100%;
         position: absolute;
-        top: 275px; }
+        top: 50%; }
     body section.baseline .makeout-point {
-      background-size: 175% 100%; } }
+      background-size: cover;
+      background-position: center; } }
   @media all and (min-width: 1025px) and (max-width: 2000px) {
     body section.skyline {
       position: relative;
@@ -2133,6 +2250,7 @@ body {
           top: 30%;
           left: 0;
           right: 0;
+          opacity: 0;
           display: -webkit-box;
           display: -moz-box;
           display: box;
@@ -2158,15 +2276,17 @@ body {
           -o-justify-content: center;
           justify-content: center;
           -ms-flex-pack: center; }
-          body section.skyline .wrapper .title ul {
+        body section.skyline .wrapper .title.zoomIn {
+          opacity: 1; }
+          body section.skyline .wrapper .title.zoomIn ul {
             list-style: none;
             margin: 0;
             padding: 0; }
-            body section.skyline .wrapper .title ul #lead {
+            body section.skyline .wrapper .title.zoomIn ul #lead {
               font-size: 72px;
               font-weight: 300;
               margin: 0; }
-            body section.skyline .wrapper .title ul #sublead {
+            body section.skyline .wrapper .title.zoomIn ul #sublead {
               font-size: 20px;
               opacity: 0.5;
               font-weight: 100;
@@ -2373,6 +2493,7 @@ body {
           top: 30%;
           left: 0;
           right: 0;
+          opacity: 0;
           display: -webkit-box;
           display: -moz-box;
           display: box;
@@ -2398,15 +2519,17 @@ body {
           -o-justify-content: center;
           justify-content: center;
           -ms-flex-pack: center; }
-          body section.skyline .wrapper .title ul {
+        body section.skyline .wrapper .title.zoomIn {
+          opacity: 1; }
+          body section.skyline .wrapper .title.zoomIn ul {
             list-style: none;
             margin: 0;
             padding: 0; }
-            body section.skyline .wrapper .title ul #lead {
+            body section.skyline .wrapper .title.zoomIn ul #lead {
               font-size: 72px;
               font-weight: 300;
               margin: 0; }
-            body section.skyline .wrapper .title ul #sublead {
+            body section.skyline .wrapper .title.zoomIn ul #sublead {
               font-size: 20px;
               opacity: 0.5;
               font-weight: 100;
@@ -2427,7 +2550,7 @@ body {
           width: 100%;
           height: 100%;
           position: absolute;
-          top: 650px; }
+          top: 700px; }
         body section.skyline .wrapper .frontTrees {
           background-image: url(../img/frontTreesXL.png);
           background-repeat: no-repeat;

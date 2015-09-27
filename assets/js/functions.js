@@ -8,7 +8,7 @@ $(function() {
   }
 
 
-  if(top.location.pathname === '/index.html') {
+  if(top.location.pathname === '/index.html' || top.location.pathname === '/') {
     var clearTimout;
 
     $(window).resize(function(){
@@ -44,6 +44,34 @@ $(function() {
           'data-stellar-vertical-offset':'-800'
         });
       }
+      if($(window).width() > 1009 && $(window).width() <= 1986){
+        $('.sunset').attr({
+          'data-stellar-background-ratio':'0.85',
+          'data-stellar-vertical-offset':'0'
+        });
+        $('.midTrees').attr({
+          'data-stellar-background-ratio':'1.15',
+          'data-stellar-vertical-offset':'-150'
+        });
+        $('.frontTrees').attr({
+          'data-stellar-background-ratio':'1.25',
+          'data-stellar-vertical-offset':'-800'
+        });
+      }
+      if($(window).width() > 1986){
+        $('.sunset').attr({
+          'data-stellar-background-ratio':'0.85',
+          'data-stellar-vertical-offset':'0'
+        });
+        $('.midTrees').attr({
+          'data-stellar-background-ratio':'1.15',
+          'data-stellar-vertical-offset':'0'
+        });
+        $('.frontTrees').attr({
+          'data-stellar-background-ratio':'1.25',
+          'data-stellar-vertical-offset':'-500'
+        });
+      }
       if(isMobile === false){
         if(this.resizeTO) {
           clearTimout(this.resizeTO);
@@ -58,62 +86,7 @@ $(function() {
       location.reload();
     });
 
-
-    if($(window).width() <= 400){
-      $('.sunset').attr({
-        'data-stellar-background-ratio':'0.85',
-        'data-stellar-vertical-offset':'0'
-      });
-      $('.backTrees').attr({
-        'data-stellar-background-ratio':'1.10',
-        'data-stellar-vertical-offset':'-250'
-      });
-      $('.midTrees').attr({
-        'data-stellar-background-ratio':'1.15',
-        'data-stellar-vertical-offset':'-350'
-      });
-      $('.frontTrees').attr({
-        'data-stellar-background-ratio':'1.35',
-        'data-stellar-vertical-offset':'-125'
-      });
-    }
-    if($(window).width() > 400 && $(window).width() <= 600){
-      $('.sunset').attr({
-        'data-stellar-background-ratio':'0.85',
-        'data-stellar-vertical-offset':'0'
-      });
-      $('.backTrees').attr({
-        'data-stellar-background-ratio':'1.10',
-        'data-stellar-vertical-offset':'-250'
-      });
-      $('.midTrees').attr({
-        'data-stellar-background-ratio':'1.15',
-        'data-stellar-vertical-offset':'-350'
-      });
-      $('.frontTrees').attr({
-        'data-stellar-background-ratio':'1.35',
-        'data-stellar-vertical-offset':'-400'
-      });
-    }
-    if($(window).width() > 600 && $(window).width() <= 667){
-      $('.sunset').attr({
-        'data-stellar-background-ratio':'0.85',
-        'data-stellar-vertical-offset':'0'
-      });
-      $('.backTrees').attr({
-        'data-stellar-background-ratio':'1.10',
-        'data-stellar-vertical-offset':'-250'
-      });
-      $('.midTrees').attr({
-        'data-stellar-background-ratio':'1.15',
-        'data-stellar-vertical-offset':'-350'
-      });
-      $('.frontTrees').attr({
-        'data-stellar-background-ratio':'1.35',
-        'data-stellar-vertical-offset':'-600'
-      });
-    }
-    if($(window).width() > 667 && $(window).width() <= 1009){
+    if($(window).width() > 668 && $(window).width() <= 1009){
       $('.sunset').attr({
         'data-stellar-background-ratio':'0.85',
         'data-stellar-vertical-offset':'0'
@@ -131,18 +104,32 @@ $(function() {
         'data-stellar-vertical-offset':'-850'
       });
     }
-    if($(window).width() > 1009){
+    if($(window).width() > 1009 && $(window).width() <= 1986){
       $('.sunset').attr({
         'data-stellar-background-ratio':'0.85',
         'data-stellar-vertical-offset':'0'
       });
       $('.midTrees').attr({
-        'data-stellar-background-ratio':'1.20',
+        'data-stellar-background-ratio':'1.15',
         'data-stellar-vertical-offset':'-150'
       });
       $('.frontTrees').attr({
         'data-stellar-background-ratio':'1.25',
         'data-stellar-vertical-offset':'-800'
+      });
+    }
+    if($(window).width() > 1986){
+      $('.sunset').attr({
+        'data-stellar-background-ratio':'0.85',
+        'data-stellar-vertical-offset':'0'
+      });
+      $('.midTrees').attr({
+        'data-stellar-background-ratio':'1.15',
+        'data-stellar-vertical-offset':'0'
+      });
+      $('.frontTrees').attr({
+        'data-stellar-background-ratio':'1.25',
+        'data-stellar-vertical-offset':'-500'
       });
     }
   }
@@ -154,14 +141,15 @@ $(function() {
 
     var wScroll = $(this).scrollTop();
 
-    if(top.location.pathname === '/index.html'){
+    if(top.location.pathname === '/index.html' || top.location.pathname === '/'){
+      
       if(wScroll > $('.makeout-point .animated').offset().top - ($(window).height() / 1.7)){
 
        $('.makeout-point .animated').each(function(i){
 
          setTimeout(function(){
            $('.makeout-point .animated').eq(i).addClass('treeShake');
-         }, (700 * (Math.exp(i * 0.1))) - 700);
+         }, (700 * (Math.exp(i * 0.09))) - 700);
 
        });
 
@@ -171,15 +159,13 @@ $(function() {
         $('.makeout-point .animated').removeClass('treeShake');
       }
 
-      if($(window).width() < 700){
-        if(wScroll > $('.title').offset().top / 15){
-          $('.title').addClass('zoomIn');
-        }
-      }
-
     }
 
   });
+
+  setTimeout(function(){
+    $('.title').addClass('zoomIn');
+  }, 1000);
 
   $('.newsHighlights').hover(function(){
    $(this).addClass('jello').one(animationEnd, function(){

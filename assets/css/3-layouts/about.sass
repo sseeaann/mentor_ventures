@@ -4,6 +4,7 @@
 
 main#about
   position: relative
+  background: $aboutBlue
 
   section#dudes
     background:
@@ -206,3 +207,9 @@ main#about
         padding-top: 130px
         @include display(flex)
         @include justify-content(space-around)
+
+@media (min-height: 1240px)
+  main#about
+    position: relative
+    background: $aboutBlue
+    min-height: 100vh

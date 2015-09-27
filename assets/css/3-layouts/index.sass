@@ -84,9 +84,13 @@ body
           top: 30%
           left: 0
           right: 0
+          opacity: 0
           @include display(flex)
           @include align-items(center)
           @include justify-content(center)
+
+        .title.zoomIn
+          opacity: 1
 
           ul
             list-style: none
@@ -295,16 +299,19 @@ body
           height: 100%
           position: absolute
 
-
         .title
           color: $white
           position: absolute
           top: 30%
           left: 0
           right: 0
+          opacity: 0
           @include display(flex)
           @include align-items(center)
           @include justify-content(center)
+
+        .title.zoomIn
+          opacity: 1
 
           ul
             list-style: none
@@ -448,8 +455,26 @@ body
     section.skyline
 
       .wrapper
-        height: 924px
+        height: 200vh
         position: relative
+
+        .comet1
+          position: absolute
+          top: 10%
+          width: 132px
+          height: 70px
+          background:
+            image: url(../img/comet1.png)
+            repeat: no-repeat
+
+        .comet2
+          position: absolute
+          top: 20%
+          width: 230px
+          height: 70px
+          background:
+            image: url(../img/comet2.png)
+            repeat: no-repeat
 
         ul
           li.layer
@@ -468,20 +493,18 @@ body
           background:
             image: url(../img/sunset.png)
             repeat: no-repeat
-            attachment: fixed
-            size: 125%
-            position: -50px center
-          width: 150%
+            size: cover
+          width: 100%
           height: 100%
           position: absolute
-          top: 7%
+          top: 0
           left: 0px
 
 
         .title
           color: $white
           position: absolute
-          top: 30%
+          top: 20%
           left: 0
           right: 0
           opacity: 0
@@ -507,42 +530,42 @@ body
               opacity: 0.5
               font-weight: 100
               margin: 0
-              padding-left: 5px
+              padding-left: 2px
 
 
         .mountains
           background:
             size: 100%
-          width: 150%
+          width: 100%
           height: 100%
           position: absolute
-          top: 75px
-          left: -25%
+          top: 0
+          left: 0
 
         .backTrees
           background:
             size: 100%
-          width: 150%
+          width: 100%
           height: 100%
           position: absolute
-          top: 75px
-          left: -20%
+          top: 0
+          left: 0
 
         .midTrees
           background:
             size: 100%
-          width: 150%
+          width: 100%
           height: 100%
           position: absolute
-          top: 50px
+          top: 0
 
         .frontTrees
           background:
             size: 100%
-          width: 120%
+          width: 100%
           height: 100%
           position: absolute
-          top: 425px
+          top: 40%
 
         @media (max-width: 500px)
           .wrapper
@@ -633,6 +656,67 @@ body
           height: 100%
           position: absolute
 
+        .sunset
+          background:
+            image: url(../img/sunset.png)
+            repeat: no-repeat
+            size: 100%
+            position: center
+          width: 100%
+          height: 100%
+          position: absolute
+          top: 0
+          left: 0
+
+        .comet1
+          position: absolute
+          top: 0%
+          width: 132px
+          height: 70px
+          background:
+            image: url(../img/comet1.png)
+            repeat: no-repeat
+
+        .comet2
+          position: absolute
+          top: 5%
+          width: 230px
+          height: 70px
+          background:
+            image: url(../img/comet2.png)
+            repeat: no-repeat
+
+        .title
+          color: $white
+          position: absolute
+          top: 25vh
+          left: 0
+          right: 0
+          opacity: 0
+          @include display(flex)
+          @include align-items(center)
+          @include justify-content(center)
+
+        .title.zoomIn
+          opacity: 1
+
+          ul
+            list-style: none
+            margin: 0
+            padding: 0
+
+            #lead
+              font-size: 6vw
+              font-weight: 300
+              margin: 0
+
+            #sublead
+              font-size: 4vw
+              opacity: 0.5
+              font-weight: 100
+              margin: 0
+              padding-left: 2px
+
         ul
           li.layer
             .clouds
@@ -647,21 +731,48 @@ body
               top: 100px
               left: -25%
 
+        .mountains
+          background:
+            size: 100%
+          width: 150%
+          height: 100%
+          position: absolute
+          top: 0
+          left: -25%
+
+        .backTrees
+          background:
+            size: 100%
+          width: 150%
+          height: 100%
+          position: absolute
+          top: 0
+          left: -20%
+
+        .midTrees
+          background:
+            size: 100%
+          width: 150%
+          height: 100%
+          position: absolute
+          top: 0
+
         .frontTrees
           background:
             image: url(../img/frontTrees.png)
             repeat: no-repeat
-            size: 105%
-          width: 120%
+            size: 100%
+          width: 100%
           height: 100%
           position: absolute
-          top: 275px
+          top: 50%
 
     section.baseline
 
       .makeout-point
         background:
-          size: 175% 100%
+          size: cover
+          position: center
 
 
   @media all and (min-width: 1025px) and (max-width: 2000px)
@@ -737,9 +848,13 @@ body
           top: 30%
           left: 0
           right: 0
+          opacity: 0
           @include display(flex)
           @include align-items(center)
           @include justify-content(center)
+
+        .title.zoomIn
+          opacity: 1
 
           ul
             list-style: none
@@ -994,9 +1109,13 @@ body
           top: 30%
           left: 0
           right: 0
+          opacity: 0
           @include display(flex)
           @include align-items(center)
           @include justify-content(center)
+
+        .title.zoomIn
+          opacity: 1
 
           ul
             list-style: none
@@ -1035,7 +1154,7 @@ body
           width: 100%
           height: 100%
           position: absolute
-          top: 650px
+          top: 700px
 
         .frontTrees
           background:
