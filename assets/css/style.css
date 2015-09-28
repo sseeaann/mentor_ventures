@@ -1142,7 +1142,7 @@ main#apps {
             main#apps section#appsBody .appBox #founderfox .aboutAppContainer .aboutApp .appStore img {
               display: inline-block;
               margin-right: 28px; }
-            main#apps section#appsBody .appBox #founderfox .aboutAppContainer .aboutApp .appStore a {
+            main#apps section#appsBody .appBox #founderfox .aboutAppContainer .aboutApp .appStore button {
               text-decoration: none;
               display: inline-block;
               font-size: 18px;
@@ -1150,7 +1150,12 @@ main#apps {
               font-weight: 100;
               background: rgba(0, 0, 0, 0.4);
               border-radius: 5px;
-              padding: 12px 35px; }
+              padding: 12px 35px;
+              border: none; }
+              main#apps section#appsBody .appBox #founderfox .aboutAppContainer .aboutApp .appStore button:focus {
+                outline: none; }
+              main#apps section#appsBody .appBox #founderfox .aboutAppContainer .aboutApp .appStore button:hover {
+                cursor: no-drop; }
   main#apps section#appsBody #comingSoon {
     text-align: center;
     color: #4C4C4C;

@@ -31,14 +31,16 @@
       <p>
         We love our fans, come by and chat about mobile apps or design. Lets work together, if you need help with your mobile app ping us <a href="mailto:hello@designfirstapps.com">hello@designfirstapps.com</a> or message us below, you can also reach us on <a href="#">Twitter</a> too.  We are located in the beautiful pacific northwest just outside Seattle, WA  in a small town called Kirkland. Our neighbors include Google, Amazon, Facebook, Microsoft, Expedia, Zillow, GoDaddy and many more awesome startups.
       </p>
-      <form>
+      <form action="http://formspree.io/hello@designfirstapps.com" method="post">
         <div class="formInput">
-          <input type="text" name="name" placeholder="Name">
-          <input type="email" name="email" placeholder="Email">
+          <input type="hidden" name="_subject" value="New email from Design First Apps website" />
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="_replyto" placeholder="Email" required>
           <input type="text" name="phone" placeholder="Phone number">
+          <input type="text" name="_gotcha" style="display:none">
         </div>
         <div class="formInput">
-          <textarea name="message" placeholder="Type your message here dude..."></textarea>
+          <textarea name="message" placeholder="Type your message here dude..." required></textarea>
         </div>
         <div class="formBottom">
           <input type="submit" value="SEND">
